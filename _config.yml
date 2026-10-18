@@ -1,0 +1,21 @@
+title: "BLR Airport Cab"
+tagline: "Bangalore Airport Pickup & Drop Taxi Service — 24/7 Cab Booking"
+email: "vinaygowdapr1982@gmail.com"
+description: "Book reliable Bangalore Airport Taxi service for Kempegowda International Airport (BLR). 24/7 Airport Pickup & Drop, Local Cab Packages & Outstation Cabs. Sedan, SUV, Tempo Traveller, Urbania."
+url: "https://blrairportcab.com"
+baseurl: ""
+phone: "+91 9845798106"
+phone_raw: "+919845798106"
+whatsapp: "+91 9845798106"
+whatsapp_number: "919845798106"
+
+# Build settings
+markdown: kramdown
+permalink: /:basename/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - workplan.md
+  - build.py

@@ -1,0 +1,592 @@
+/* ==========================================================================
+   BLR AIRPORT CAB — RESPONSIVE STYLESHEET
+   Comprehensive Breakpoints, Mobile App Drawer, Grids & Responsive Tables
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   0. Global Responsive Guardrails
+   -------------------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, p, .lead, span, a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Responsive Table Wrapper */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 24px 0;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-sm);
+}
+
+.table-custom {
+  min-width: 580px;
+}
+
+/* Modal Booking Widget should always have 2-column tabs */
+.modal-dialog .tab-nav {
+  grid-template-columns: repeat(2, 1fr) !important;
+}
+
+/* Body Scroll Lock when Drawer is Open */
+body.mobile-nav-open {
+  overflow: hidden !important;
+  touch-action: none;
+}
+
+body.mobile-nav-open .site-header {
+  z-index: 1060 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* --------------------------------------------------------------------------
+   1. Breakpoint: Under 1120px (Mobile Header & Drawer Activation)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1120px) {
+  .site-header {
+    z-index: 1050;
+  }
+
+  .top-bar-left {
+    display: none;
+  }
+  
+  .top-bar-inner {
+    justify-content: center;
+  }
+
+  /* Show Hamburger & Hide Desktop Menu */
+  .mobile-nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    width: 42px;
+    height: 42px;
+    border-radius: var(--radius-md);
+    padding: 0;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+  }
+
+  .mobile-nav-toggle:hover,
+  .mobile-nav-toggle.active {
+    background-color: var(--color-secondary-light);
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
+  }
+
+  /* Slide-in Mobile Navigation Drawer */
+  .main-navigation {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 86%;
+    max-width: 360px;
+    height: 100vh;
+    height: 100dvh;
+    background-color: #FFFFFF !important;
+    z-index: 1060;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -10px 0 36px rgba(10, 24, 38, 0.28);
+    transform: translateX(100%);
+    visibility: hidden;
+    pointer-events: none;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.3s ease;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .main-navigation.open {
+    transform: translateX(0);
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  /* Drawer Top Bar */
+  .mobile-drawer-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--color-border);
+    background-color: var(--color-bg-light);
+    flex-shrink: 0;
+  }
+
+  .mobile-drawer-close {
+    background: #FFFFFF;
+    border: 1px solid var(--color-border);
+    color: var(--color-primary);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+  }
+
+  .mobile-drawer-close:hover,
+  .mobile-drawer-close:active {
+    background-color: var(--color-secondary-light);
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
+  }
+
+  /* Nav Menu inside drawer */
+  .nav-menu {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 12px 16px;
+    gap: 4px;
+    list-style: none;
+    margin: 0;
+    overflow-y: auto;
+    transform: none;
+    position: static;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  .nav-item {
+    width: 100%;
+    border-radius: var(--radius-md);
+  }
+
+  .nav-link-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: var(--radius-md);
+    border-bottom: 1px solid var(--color-border-light);
+  }
+
+  .nav-link {
+    flex: 1;
+    font-size: 1.02rem;
+    font-weight: 600;
+    padding: 12px 14px;
+    border-radius: var(--radius-md);
+    border-bottom: 1px solid var(--color-border-light);
+    display: block;
+    color: var(--color-primary);
+  }
+
+  .has-dropdown .nav-link-group .nav-link {
+    border-bottom: none;
+  }
+
+  .nav-dropdown-toggle {
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-sm);
+    color: var(--color-primary);
+    padding: 0;
+    flex-shrink: 0;
+  }
+
+  .nav-dropdown-toggle:hover,
+  .nav-dropdown-toggle:active {
+    background-color: var(--color-secondary-light);
+    color: var(--color-secondary);
+  }
+
+  .has-dropdown.dropdown-open .nav-dropdown-toggle svg.dropdown-arrow {
+    transform: rotate(180deg);
+    color: var(--color-secondary);
+  }
+
+  /* Dropdown Sub-menu on mobile (Collapsible accordion) */
+  .dropdown-menu {
+    position: static;
+    display: none;
+    box-shadow: none;
+    border: none;
+    border-left: 3px solid var(--color-secondary);
+    background-color: var(--color-bg-light);
+    border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    margin: 4px 0 8px 12px;
+    padding: 6px 0;
+    animation: none;
+  }
+
+  .has-dropdown.dropdown-open .dropdown-menu {
+    display: block;
+  }
+
+  .dropdown-link {
+    padding: 10px 14px;
+    font-size: 0.92rem;
+    display: block;
+    color: var(--color-text-muted);
+    font-weight: 500;
+  }
+
+  .dropdown-link:hover,
+  .dropdown-link:active {
+    color: var(--color-secondary);
+    background-color: rgba(22, 119, 200, 0.08);
+  }
+
+  /* Drawer Footer */
+  .mobile-drawer-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px 18px;
+    padding-bottom: calc(90px + env(safe-area-inset-bottom, 0px));
+    border-top: 1px solid var(--color-border);
+    background-color: #FAFCFE;
+    flex-shrink: 0;
+  }
+
+  .drawer-action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: var(--radius-md);
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    transition: all var(--transition-fast);
+  }
+
+  .drawer-btn-phone {
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+  }
+
+  .drawer-btn-phone:hover {
+    background-color: var(--color-primary-light);
+  }
+
+  .drawer-btn-whatsapp {
+    background-color: #25D366;
+    color: #FFFFFF;
+  }
+
+  .drawer-btn-whatsapp:hover {
+    background-color: #1EBE5D;
+  }
+
+  .drawer-btn-book {
+    text-align: center;
+    padding: 12px 16px;
+    font-size: 0.95rem;
+  }
+
+  .header-actions .header-book-btn,
+  .header-actions .btn-accent {
+    display: none; /* In mobile header, hide "Book Cab" button because sticky bottom bar has CTAs */
+  }
+
+  .routes-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. Breakpoint: Large Tablets & Small Desktops (under 1024px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 1024px) {
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+  }
+
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .steps-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   3. Breakpoint: Small Tablets & Handhelds (under 768px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 768px) {
+  .tab-nav {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .fleet-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .btn {
+    white-space: normal;
+  }
+
+  .modal-overlay {
+    padding: 12px;
+  }
+
+  .modal-dialog {
+    max-height: 94vh;
+    border-radius: var(--radius-lg);
+  }
+
+  .sticky-mobile-cta {
+    display: flex;
+    gap: 10px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   4. Breakpoint: Standard Mobile Devices (under 560px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 560px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section {
+    padding: 44px 0;
+  }
+
+  .hero {
+    padding: 32px 0 44px 0;
+  }
+
+  h1 {
+    font-size: clamp(1.65rem, 6.5vw, 2.15rem);
+  }
+
+  h2 {
+    font-size: clamp(1.35rem, 5.5vw, 1.75rem);
+  }
+
+  .lead {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .brand-text-logo .brand-name {
+    font-size: 1.15rem;
+  }
+
+  .brand-text-logo .brand-tagline {
+    font-size: 0.6rem;
+  }
+
+  .header-phone-btn span {
+    display: none;
+  }
+
+  .header-phone-btn {
+    padding: 8px 10px;
+  }
+
+  .hero-badges {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero-badge-item {
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 7px 12px;
+  }
+
+  .hero-ctas {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .hero-ctas .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .booking-form-body {
+    padding: 18px 14px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .flight-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .tab-btn {
+    padding: 8px 4px;
+    font-size: 0.76rem;
+  }
+
+  .tab-btn svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .steps-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .step-card {
+    padding: 20px 16px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+
+  .route-card {
+    padding: 20px 16px;
+  }
+
+  .route-visual {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 12px 14px;
+  }
+
+  .route-arrow {
+    transform: rotate(90deg);
+    margin: 2px 0;
+    align-self: center;
+  }
+
+  .fleet-specs-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .table-custom th,
+  .table-custom td {
+    padding: 10px 12px;
+    font-size: 0.84rem;
+  }
+
+  .faq-question {
+    padding: 14px 16px;
+    font-size: 0.95rem;
+  }
+
+  .faq-answer {
+    padding: 0 16px 16px 16px;
+    font-size: 0.9rem;
+  }
+
+  .coverage-pills {
+    gap: 8px;
+    margin: 20px 0;
+  }
+
+  .coverage-pill {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+
+  .thank-you-box {
+    padding: 28px 16px !important;
+  }
+
+  .about-cta-card {
+    padding: 22px 16px !important;
+  }
+
+  .quick-links-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. Breakpoint: Ultra-Narrow Devices (under 360px)
+   -------------------------------------------------------------------------- */
+@media (max-width: 360px) {
+  .brand-text-logo .brand-name {
+    font-size: 1rem;
+  }
+
+  .brand-text-logo .brand-tagline {
+    font-size: 0.55rem;
+  }
+
+  .btn {
+    font-size: 0.88rem;
+    padding: 11px 16px;
+  }
+
+  .hero-badge-item {
+    font-size: 0.76rem;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   6. Print Stylesheet
+   -------------------------------------------------------------------------- */
+@media print {
+  .site-header,
+  .site-footer,
+  .sticky-mobile-cta,
+  .booking-widget-card,
+  .top-bar {
+    display: none !important;
+  }
+  
+  body {
+    padding: 0;
+    color: #000000;
+    background: #FFFFFF;
+  }
+}

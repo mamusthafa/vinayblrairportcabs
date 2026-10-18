@@ -1,0 +1,136 @@
+<!-- Mobile Navigation Backdrop Overlay -->
+<div class="mobile-nav-backdrop" id="mobileNavBackdrop" aria-hidden="true"></div>
+
+<!-- Top Information Strip -->
+<div class="top-bar">
+  <div class="container top-bar-inner">
+    <div class="top-bar-left">
+      <span><strong class="status-dot"></strong> 24-Hour Airport Transfer Bookings Active</span>
+      <span>•</span>
+      <span>Kempegowda International Airport (BLR) &amp; Bengaluru City</span>
+    </div>
+    <div class="top-bar-right">
+      <a href="tel:+919845798106" data-track-location="topbar_call">
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        +91 9845798106
+      </a>
+      <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20enquire%20about%20a%20taxi%20booking." target="_blank" rel="noopener noreferrer" data-track-location="topbar_whatsapp">
+        <svg width="14" height="14" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.78 14.07c-.24.68-1.4 1.25-1.92 1.33-.52.08-1.18.12-3.8-1.02-3.35-1.45-5.5-4.88-5.67-5.1-.17-.22-1.36-1.81-1.36-3.45 0-1.64.86-2.45 1.17-2.78.31-.33.68-.41.9-.41.22 0 .45 0 .64.01.21.01.49-.08.77.58.29.68.99 2.41 1.07 2.58.09.17.15.38.03.61-.12.23-.18.37-.36.57-.18.2-.38.45-.55.6-.18.17-.37.36-.16.71.21.36.94 1.54 2.01 2.5 1.38 1.23 2.54 1.62 2.9 1.8.36.18.57.15.78-.09.21-.24.9-1.05 1.14-1.41.24-.36.48-.3.8-.18.33.12 2.07.98 2.43 1.15.36.18.6.27.69.42.09.15.09.87-.15 1.55z"/></svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Main Sticky Header -->
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <!-- Brand Logo (Pure Site Title Typography without Icon) -->
+    <a href="{{ site.baseurl }}/" class="brand-logo-link" aria-label="BLR Airport Cab Home">
+      <div class="brand-text-logo">
+        <span class="brand-name">BLR <span class="brand-highlight">AIRPORT</span> <span class="brand-accent">CAB</span></span>
+        <span class="brand-tagline">24/7 TAXI &bull; KEMPEGOWDA BLR</span>
+      </div>
+    </a>
+
+    <!-- Primary Navigation Menu & Mobile Slide-In Drawer -->
+    <nav class="main-navigation" id="mainNavigation" role="navigation" aria-label="Main Navigation">
+      <!-- Mobile Drawer Top Bar (Visible on mobile only) -->
+      <div class="mobile-drawer-header">
+        <div class="brand-text-logo">
+          <span class="brand-name">BLR <span class="brand-highlight">AIRPORT</span> <span class="brand-accent">CAB</span></span>
+          <span class="brand-tagline">24/7 TAXI &bull; KEMPEGOWDA BLR</span>
+        </div>
+        <button type="button" class="mobile-drawer-close" id="mobileDrawerClose" aria-label="Close navigation menu">
+          <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="{{ site.baseurl }}/" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+        </li>
+
+        <!-- Airport Taxi Dropdown -->
+        <li class="nav-item has-dropdown">
+          <div class="nav-link-group">
+            <a href="{{ site.baseurl }}/bangalore-airport-taxi/" class="nav-link {% if page.url contains 'bangalore-airport-taxi' or page.url contains 'airport-cab' or page.url contains 'airport-pickup' %}active{% endif %}">
+              <span>Airport Taxi</span>
+            </a>
+            <button type="button" class="nav-dropdown-toggle" aria-label="Toggle Airport Taxi sub-menu" aria-expanded="false">
+              <svg class="dropdown-arrow" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+            </button>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl }}/bangalore-airport-taxi/" class="dropdown-link">Bangalore Airport Taxi (All Services)</a></li>
+            <li><a href="{{ site.baseurl }}/bangalore-to-airport-cab/" class="dropdown-link">Bangalore to Airport Drop</a></li>
+            <li><a href="{{ site.baseurl }}/bangalore-airport-pickup/" class="dropdown-link">Airport to Bangalore Pickup</a></li>
+            <li><a href="{{ site.baseurl }}/bangalore-airport-taxi-fare/" class="dropdown-link">Airport Taxi Fares &amp; Rates</a></li>
+          </ul>
+        </li>
+
+        <!-- Local Taxi & Packages Dropdown -->
+        <li class="nav-item has-dropdown">
+          <div class="nav-link-group">
+            <a href="{{ site.baseurl }}/bangalore-local-taxi/" class="nav-link {% if page.url contains 'local' or page.url contains 'rental' or page.url contains 'sightseeing' or page.url contains 'city-pickup' %}active{% endif %}">
+              <span>Local Packages</span>
+            </a>
+            <button type="button" class="nav-dropdown-toggle" aria-label="Toggle Local Packages sub-menu" aria-expanded="false">
+              <svg class="dropdown-arrow" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+            </button>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a href="{{ site.baseurl }}/bangalore-local-taxi/" class="dropdown-link">Bangalore Local Taxi Overview</a></li>
+            <li><a href="{{ site.baseurl }}/bangalore-hourly-cab-rental/" class="dropdown-link">Hourly Rental (4h/8h/12h Packages)</a></li>
+            <li><a href="{{ site.baseurl }}/bangalore-sightseeing-taxi/" class="dropdown-link">Bangalore City Sightseeing Tour</a></li>
+            <li><a href="{{ site.baseurl }}/bangalore-city-pickup-drop/" class="dropdown-link">City Point-to-Point Rides</a></li>
+          </ul>
+        </li>
+
+        <!-- Outstation Cabs -->
+        <li class="nav-item">
+          <a href="{{ site.baseurl }}/bangalore-outstation-cabs/" class="nav-link {% if page.url contains 'outstation' %}active{% endif %}">Outstation Cabs</a>
+        </li>
+
+        <!-- Our Fleet -->
+        <li class="nav-item">
+          <a href="{{ site.baseurl }}/our-fleet/" class="nav-link {% if page.url contains 'our-fleet' %}active{% endif %}">Our Fleet</a>
+        </li>
+
+        <!-- Contact -->
+        <li class="nav-item">
+          <a href="{{ site.baseurl }}/contact/" class="nav-link {% if page.url contains 'contact' %}active{% endif %}">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Mobile Drawer Footer Actions (Visible on mobile only) -->
+      <div class="mobile-drawer-footer">
+        <a href="tel:+919845798106" class="drawer-action-btn drawer-btn-phone" data-track-location="drawer_call">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          <span>Call +91 9845798106</span>
+        </a>
+        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20enquire%20about%20a%20taxi%20booking." target="_blank" rel="noopener noreferrer" class="drawer-action-btn drawer-btn-whatsapp" data-track-location="drawer_whatsapp">
+          <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.78 14.07c-.24.68-1.4 1.25-1.92 1.33-.52.08-1.18.12-3.8-1.02-3.35-1.45-5.5-4.88-5.67-5.1-.17-.22-1.36-1.81-1.36-3.45 0-1.64.86-2.45 1.17-2.78.31-.33.68-.41.9-.41.22 0 .45 0 .64.01.21.01.49-.08.77.58.29.68.99 2.41 1.07 2.58.09.17.15.38.03.61-.12.23-.18.37-.36.57-.18.2-.38.45-.55.6-.18.17-.37.36-.16.71.21.36.94 1.54 2.01 2.5 1.38 1.23 2.54 1.62 2.9 1.8.36.18.57.15.78-.09.21-.24.9-1.05 1.14-1.41.24-.36.48-.3.8-.18.33.12 2.07.98 2.43 1.15.36.18.6.27.69.42.09.15.09.87-.15 1.55z"/></svg>
+          <span>Chat on WhatsApp</span>
+        </a>
+        <a href="#booking-form-section" class="btn btn-accent btn-block drawer-btn-book" data-open-modal="booking-modal">
+          Book Cab Online
+        </a>
+      </div>
+    </nav>
+
+    <!-- Header Actions -->
+    <div class="header-actions">
+      <a href="tel:+919845798106" class="header-phone-btn" data-track-location="header_phone">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <span>+91 9845798106</span>
+      </a>
+      <a href="#booking-form-section" class="btn btn-accent btn-sm header-book-btn" data-open-modal="booking-modal">
+        Book Cab
+      </a>
+      <button type="button" class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>

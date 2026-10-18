@@ -1,0 +1,199 @@
+<div class="booking-widget-container booking-widget-card" data-default-tab="{{ include.default_tab | default: page.booking_tab | default: 'airport-drop' }}">
+  <!-- Widget Top Bar -->
+  <div class="widget-header">
+    <div class="widget-header-title">
+      <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
+      <span>Instant Cab Booking</span>
+    </div>
+    <span class="widget-header-badge">24/7 Available</span>
+  </div>
+
+  <!-- Tabbed Navigation -->
+  <div class="tab-nav" role="tablist">
+    <button type="button" class="tab-btn active" data-tab="airport-drop" role="tab" aria-selected="true">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      <span>Airport Drop</span>
+    </button>
+    <button type="button" class="tab-btn" data-tab="airport-pickup" role="tab" aria-selected="false">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+      <span>Airport Pickup</span>
+    </button>
+    <button type="button" class="tab-btn" data-tab="local-package" role="tab" aria-selected="false">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      <span>Local Package</span>
+    </button>
+    <button type="button" class="tab-btn" data-tab="outstation" role="tab" aria-selected="false">
+      <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+      <span>Outstation</span>
+    </button>
+  </div>
+
+  <!-- Form Body -->
+  <form class="booking-form booking-form-body" novalidate>
+    <input type="hidden" name="service_type" value="airport-drop">
+
+    <!-- Common Bengaluru Localities Datalist -->
+    <datalist id="blr-locations-list">
+      <option value="Indiranagar">
+      <option value="Koramangala">
+      <option value="Whitefield">
+      <option value="Electronic City">
+      <option value="HSR Layout">
+      <option value="Marathahalli">
+      <option value="Bellandur">
+      <option value="Hebbal">
+      <option value="Yelahanka">
+      <option value="Jayanagar">
+      <option value="JP Nagar">
+      <option value="BTM Layout">
+      <option value="Banashankari">
+      <option value="Malleshwaram">
+      <option value="Rajajinagar">
+      <option value="MG Road / Residency Road">
+      <option value="Sarjapur Road">
+      <option value="Manyata Tech Park">
+      <option value="Kalyan Nagar / HRBR Layout">
+      <option value="Kanakapura Road">
+      <option value="Bannerghatta Road">
+    </datalist>
+
+    <div class="form-grid">
+      <!-- Pickup Location -->
+      <div class="form-group group-pickup form-grid-full">
+        <label class="form-label">
+          <span>Pickup Location</span> <span class="req">*</span>
+        </label>
+        <input type="text" name="pickup_location" class="form-input" list="blr-locations-list" placeholder="Enter Bengaluru address / locality (e.g. Indiranagar)" required>
+      </div>
+
+      <!-- Drop Location -->
+      <div class="form-group group-drop form-grid-full">
+        <label class="form-label">
+          <span>Drop Location</span> <span class="req">*</span>
+        </label>
+        <input type="text" name="drop_location" class="form-input" list="blr-locations-list" value="Kempegowda International Airport (BLR)" readonly required>
+      </div>
+
+      <!-- Optional Flight Number & Terminal (Airport Pickup) -->
+      <div class="form-group group-flight form-grid-full" style="display: none;">
+        <div>
+          <label class="form-label">Terminal</label>
+          <select name="flight_terminal" class="form-select">
+            <option value="Terminal 1 (T1)">Terminal 1 (T1 - Domestic)</option>
+            <option value="Terminal 2 (T2)">Terminal 2 (T2 - International / Domestic)</option>
+            <option value="Don't Know Yet">Not sure yet</option>
+          </select>
+        </div>
+        <div>
+          <label class="form-label">Flight Number (Optional)</label>
+          <input type="text" name="flight_number" class="form-input" placeholder="e.g. 6E-204 / AI-502">
+        </div>
+      </div>
+
+      <!-- Local Package Duration (Local Package) -->
+      <div class="form-group group-package-select form-grid-full" style="display: none;">
+        <label class="form-label">
+          <span>Package Format</span> <span class="req">*</span>
+        </label>
+        <select name="package_duration" class="form-select">
+          <option value="4 Hours / 40 KM">4 Hours / 40 KM (Half-Day)</option>
+          <option value="8 Hours / 80 KM" selected>8 Hours / 80 KM (Full-Day Standard)</option>
+          <option value="12 Hours / 120 KM">12 Hours / 120 KM (Extended Full-Day)</option>
+          <option value="Bangalore Sightseeing Special">Full-Day Bangalore Sightseeing Tour</option>
+        </select>
+      </div>
+
+      <!-- Travel Date -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Travel Date</span> <span class="req">*</span>
+        </label>
+        <input type="date" name="travel_date" class="form-input" required>
+      </div>
+
+      <!-- Travel Time -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Pickup Time</span> <span class="req">*</span>
+        </label>
+        <input type="time" name="travel_time" class="form-input" required>
+      </div>
+
+      <!-- Vehicle Type -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Vehicle Type</span> <span class="req">*</span>
+        </label>
+        <select name="vehicle_type" class="form-select">
+          <option value="Sedan (Dzire / Etios)">Sedan (Dzire / Etios - 4 Pax)</option>
+          <option value="SUV (Innova Crysta / Ertiga)">SUV (Innova / Ertiga - 6-7 Pax)</option>
+          <option value="Tempo Traveller (12/16 Seater)">Tempo Traveller (12-16 Pax)</option>
+          <option value="Force Urbania (Luxury Van)">Force Urbania Luxury Van (9-13 Pax)</option>
+        </select>
+      </div>
+
+      <!-- Passengers -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Passengers</span>
+        </label>
+        <select name="passengers" class="form-select">
+          <option value="1 Passenger">1 Passenger</option>
+          <option value="2 Passengers" selected>2 Passengers</option>
+          <option value="3-4 Passengers">3 - 4 Passengers</option>
+          <option value="5-7 Passengers">5 - 7 Passengers</option>
+          <option value="8+ Passengers (Group)">8+ Passengers (Group)</option>
+        </select>
+      </div>
+
+      <!-- Customer Name -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Your Name</span> <span class="req">*</span>
+        </label>
+        <input type="text" name="customer_name" class="form-input" placeholder="Enter your full name" required>
+      </div>
+
+      <!-- Customer Phone -->
+      <div class="form-group">
+        <label class="form-label">
+          <span>Mobile Number</span> <span class="req">*</span>
+        </label>
+        <input type="tel" name="customer_phone" class="form-input" placeholder="10-digit mobile number" pattern="[0-9]{10}" maxlength="10" required>
+      </div>
+
+      <!-- Special Requests / Flight Note -->
+      <div class="form-group form-grid-full">
+        <label class="form-label">
+          <span>Additional Details / Luggage Notes</span>
+        </label>
+        <textarea name="special_requests" class="form-textarea" rows="2" placeholder="e.g. 3 large suitcases, child traveling, early morning departure"></textarea>
+      </div>
+
+      <!-- Consent Checkbox -->
+      <div class="form-group form-grid-full">
+        <label class="consent-check">
+          <input type="checkbox" name="consent" checked required>
+          <span>I agree to share these details with BLR Airport Cab for my taxi enquiry.</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Booking Actions -->
+    <div class="booking-actions">
+      <button type="submit" class="btn btn-whatsapp btn-full btn-lg" data-track-location="widget_wa_submit">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm5.78 14.07c-.24.68-1.4 1.25-1.92 1.33-.52.08-1.18.12-3.8-1.02-3.35-1.45-5.5-4.88-5.67-5.1-.17-.22-1.36-1.81-1.36-3.45 0-1.64.86-2.45 1.17-2.78.31-.33.68-.41.9-.41.22 0 .45 0 .64.01.21.01.49-.08.77.58.29.68.99 2.41 1.07 2.58.09.17.15.38.03.61-.12.23-.18.37-.36.57-.18.2-.38.45-.55.6-.18.17-.37.36-.16.71.21.36.94 1.54 2.01 2.5 1.38 1.23 2.54 1.62 2.9 1.8.36.18.57.15.78-.09.21-.24.9-1.05 1.14-1.41.24-.36.48-.3.8-.18.33.12 2.07.98 2.43 1.15.36.18.6.27.69.42.09.15.09.87-.15 1.55z"/></svg>
+        <span>Get Cab Quote on WhatsApp</span>
+      </button>
+
+      <a href="tel:+919845798106" class="btn btn-outline-primary btn-full" data-track-location="widget_call_fallback">
+        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        <span>Prefer Calling? Speak to Booking Desk</span>
+      </a>
+    </div>
+
+    <p class="booking-disclaimer">
+      Opens WhatsApp with your travel details prefilled. You review and send.
+    </p>
+  </form>
+</div>

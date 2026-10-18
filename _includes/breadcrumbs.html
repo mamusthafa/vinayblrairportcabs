@@ -1,0 +1,27 @@
+<nav class="breadcrumbs" aria-label="Breadcrumbs">
+  <div class="container">
+    <ol class="breadcrumbs-list" itemscope itemtype="https://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ site.baseurl }}/" itemprop="item"><span itemprop="name">Home</span></a>
+        <meta itemprop="position" content="1">
+      </li>
+      <li class="breadcrumbs-separator" aria-hidden="true">&rsaquo;</li>
+      {% if page.parent_title and page.parent_url %}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <a href="{{ site.baseurl }}{{ page.parent_url }}" itemprop="item"><span itemprop="name">{{ page.parent_title }}</span></a>
+        <meta itemprop="position" content="2">
+      </li>
+      <li class="breadcrumbs-separator" aria-hidden="true">&rsaquo;</li>
+      <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ page.title }}</span>
+        <meta itemprop="position" content="3">
+      </li>
+      {% else %}
+      <li class="current" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ page.title }}</span>
+        <meta itemprop="position" content="2">
+      </li>
+      {% endif %}
+    </ol>
+  </div>
+</nav>

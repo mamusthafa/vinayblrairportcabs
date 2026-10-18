@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage -->
+  <url>
+    <loc>https://blrairportcab.com/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Airport Taxi Service -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-airport-taxi/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Bangalore to Airport Drop -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-to-airport-cab/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Airport to Bangalore Pickup -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-airport-pickup/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Local Taxi Packages -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-local-taxi/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Hourly Rental Packages -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-hourly-cab-rental/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Bangalore Sightseeing -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-sightseeing-taxi/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- City Pickup & Drop -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-city-pickup-drop/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Outstation Taxi -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-outstation-cabs/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Our Fleet -->
+  <url>
+    <loc>https://blrairportcab.com/our-fleet/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Airport Transfer Fare -->
+  <url>
+    <loc>https://blrairportcab.com/bangalore-airport-taxi-fare/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://blrairportcab.com/about-us/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://blrairportcab.com/contact/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://blrairportcab.com/privacy-policy/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Booking Terms -->
+  <url>
+    <loc>https://blrairportcab.com/booking-terms/</loc>
+    <lastmod>2026-10-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 64" width="280" height="64" fill="none">
+  <!-- Emblem Badge -->
+  <g transform="translate(4, 4)">
+    <rect width="56" height="56" rx="14" fill="#1677C8"/>
+    <rect x="2" y="2" width="52" height="52" rx="12" stroke="#FFC247" stroke-width="1.5"/>
+    
+    <!-- Airplane Ascent -->
+    <path d="M14 38 L24 28 L38 31 L44 24 L22 20 L27 15 L22 14 L15 22 L11 21 L13 25 L10 27 Z" fill="#FFC247"/>
+    
+    <!-- Stylized Cab Silhouette -->
+    <path d="M16 42 C16 39 18 38 21 38 L35 38 C38 38 40 39 40 42 L42 45 C42.5 45.8 42 47 41 47 L15 47 C14 47 13.5 45.8 14 45 Z" fill="#FFFFFF"/>
+    <!-- Cab Wheels -->
+    <circle cx="21" cy="46" r="3.5" fill="#10243A"/>
+    <circle cx="21" cy="46" r="1.5" fill="#FFC247"/>
+    <circle cx="35" cy="46" r="3.5" fill="#10243A"/>
+    <circle cx="35" cy="46" r="1.5" fill="#FFC247"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="70" y="31" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" letter-spacing="-0.5">
+    BLR <tspan fill="#38BDF8">AIRPORT</tspan> <tspan fill="#FFC247">CAB</tspan>
+  </text>
+  <text x="71" y="48" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="600" font-size="10.5" fill="#94A3B8" letter-spacing="1.2">
+    24/7 TAXI &bull; KEMPEGOWDA BLR
+  </text>
+</svg>

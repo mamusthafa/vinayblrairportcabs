@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% include breadcrumbs.html %}
+
+<!-- Page Title Header -->
+<section style="background: linear-gradient(135deg, #10243A 0%, #1677C8 100%); color: #FFFFFF; padding: 48px 0; text-align: center;">
+  <div class="container">
+    <span class="badge-tag badge-tag-yellow">{{ page.category | default: "BLR Airport Cab" }}</span>
+    <h1 style="color: #FFFFFF; margin-bottom: 12px;">{{ page.h1 | default: page.title }}</h1>
+    {% if page.lead %}
+    <p class="lead" style="color: #E2E8F0; max-width: 760px; margin: 0 auto;">{{ page.lead }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<!-- Content Body -->
+{{ content }}
