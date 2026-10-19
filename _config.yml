@@ -8,6 +8,8 @@ phone: "+91 9845798106"
 phone_raw: "+919845798106"
 whatsapp: "+91 9845798106"
 whatsapp_number: "919845798106"
+featured_image: "/assets/images/blr-airport-cab-og.jpg"
+og_image: "/assets/images/blr-airport-cab-og.jpg"
 
 # Build settings
 markdown: kramdown

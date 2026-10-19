@@ -55,6 +55,49 @@ url: "/about-us/"
         </div>
       </div>
 
+      <!-- Real Fleet & Quality Assurance Spotlight -->
+      <div class="verified-showcase-card">
+        <div class="verified-showcase-inner">
+          <div class="verified-showcase-media">
+            <picture>
+              <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-showcase.webp" type="image/webp">
+              <img src="{{ site.baseurl }}/assets/images/blr-sedan-showcase.jpg" alt="BLR Airport Cab Verified Sedan Fleet — Clean Interior Seats & Commercial Yellow Board" width="1024" height="1024" loading="lazy">
+            </picture>
+          </div>
+          <div class="verified-showcase-body">
+            <div class="verified-badge-row">
+              <span class="verified-pill">
+                <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                Fleet Quality Promise
+              </span>
+              <span class="verified-pill verified-pill-blue">Commercial Yellow Board</span>
+              <span class="verified-pill verified-pill-yellow">Sanitized Interiors</span>
+            </div>
+            <h3 style="font-size: 1.45rem; margin-bottom: 12px;">Verified Vehicles, Courteous Drivers</h3>
+            <p style="color: var(--color-text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 16px;">
+              We take pride in maintaining an exemplary fleet standard. Every vehicle in our service—from our reliable sedans (Toyota Etios KA03AD9618) to our spacious 7-seater Innova Crystas—features sanitized seating, dedicated boot space, and comprehensive passenger insurance.
+            </p>
+            <ul class="route-highlights" style="margin-bottom: 20px;">
+              <li>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Inspected commercial tourist vehicle with genuine yellow plates</span>
+              </li>
+              <li>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>Clean, odor-free air-conditioned cabins with premium seating</span>
+              </li>
+              <li>
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                <span>24/7 direct phone and WhatsApp driver coordination</span>
+              </li>
+            </ul>
+            <a href="{{ site.baseurl }}/our-fleet/" class="btn btn-secondary btn-sm">
+              Explore Our Full Fleet &rarr;
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div class="about-cta-card" style="background-color: var(--color-bg-light); border-radius: var(--radius-lg); border: 1px solid var(--color-border); text-align: center;">
         <h3 style="margin-bottom: 12px;">Need Airport or City Transportation?</h3>
         <p style="margin-bottom: 24px;">Our booking desk is ready 24/7 to assist with your itinerary.</p>

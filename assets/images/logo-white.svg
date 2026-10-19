@@ -21,6 +21,6 @@
     BLR <tspan fill="#38BDF8">AIRPORT</tspan> <tspan fill="#FFC247">CAB</tspan>
   </text>
   <text x="71" y="48" font-family="'Inter', system-ui, -apple-system, sans-serif" font-weight="600" font-size="10.5" fill="#94A3B8" letter-spacing="1.2">
-    24/7 TAXI &bull; KEMPEGOWDA BLR
+    24/7 TAXI &#8226; KEMPEGOWDA BLR
   </text>
 </svg>

@@ -70,6 +70,25 @@ url: "/bangalore-airport-taxi-fare/"
         </table>
       </div>
 
+      <!-- Real Vehicle Value Assurance -->
+      <div class="verified-showcase-banner-wrap">
+        <picture>
+          <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-banner.webp" type="image/webp">
+          <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Transparent Rates — Real Verified Sedan at Kempegowda Airport Bengaluru" width="1024" height="535" loading="lazy">
+        </picture>
+        <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+          <div>
+            <strong>Transparent Sedan Pricing Guarantee</strong>
+            <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
+              Pre-confirmed fixed pricing for our verified commercial sedans (Toyota Etios KA03AD9618). No midnight multipliers or sudden weather surcharges.
+            </p>
+          </div>
+          <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20my%20airport%20trip." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+            Get Exact Quote &rarr;
+          </a>
+        </div>
+      </div>
+
       <div class="services-grid" style="margin: 40px 0;">
         <div class="service-card">
           <h3>What Is Always Included</h3>

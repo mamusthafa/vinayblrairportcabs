@@ -84,5 +84,24 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a cab from Bangalore to Kemp
         {% include fleet-card.html vehicle=vehicle %}
       {% endfor %}
     </div>
+
+    <!-- Real Verified Sedan Card -->
+    <div class="verified-showcase-banner-wrap" style="margin-top: 48px;">
+      <picture>
+        <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-banner.webp" type="image/webp">
+        <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Sedan Multi-Angle Views at Kempegowda Airport Bengaluru" width="1024" height="535" loading="lazy">
+      </picture>
+      <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <strong style="color: var(--color-text);">Inspected Commercial Vehicles for Punctual Drops</strong>
+          <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
+            Scheduled doorstep pickups across Whitefield, Electronic City, Koramangala, and all Bengaluru locations. Fixed fares with zero flight surge.
+          </p>
+        </div>
+        <a href="tel:+919845798106" class="btn btn-call btn-sm">
+          Call: +91 9845798106
+        </a>
+      </div>
+    </div>
   </div>
 </section>

@@ -1,11 +1,11 @@
 - id: "sedan"
   name: "Sedan"
-  models: "Maruti Dzire, Toyota Etios"
+  models: "Toyota Etios, Maruti Dzire"
   category: "Economy & Executive Transfer"
   capacity: "4 Passengers"
   luggage: "2 Medium Bags + 2 Hand Bags"
   ac: "Fully Air Conditioned"
-  image: "assets/images/sedan.webp"
+  image: "assets/images/blr-sedan-banner.webp"
   description: "Perfect for solo business travelers, couples, or small families heading to or from Kempegowda International Airport. Quiet, fuel-efficient, and comfortable ride with boot space for standard luggage."
   ideal_for:
     - "Airport pickup & drop"

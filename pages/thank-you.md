@@ -31,6 +31,20 @@ url: "/thank-you/"
           Return to Homepage
         </a>
       </div>
+
+      <!-- Real Fleet Booking Preview -->
+      <div style="margin-top: 32px; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--color-border); background-color: var(--color-bg-light); text-align: left;">
+        <picture>
+          <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-showcase.webp" type="image/webp">
+          <img src="{{ site.baseurl }}/assets/images/blr-sedan-showcase.jpg" alt="BLR Airport Cab Verified Fleet" width="1024" height="1024" loading="lazy" style="width: 100%; height: auto; display: block;">
+        </picture>
+        <div style="padding: 16px 20px;">
+          <strong style="color: var(--color-text);">Verified Fleet Dispatch</strong>
+          <p style="margin: 4px 0 0 0; font-size: 0.85rem; color: var(--color-text-muted);">
+            Your trip will be assigned to a clean, air-conditioned commercial vehicle (such as our Toyota Etios KA03AD9618 or Innova Crysta) with verified commercial driver.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
 </section>

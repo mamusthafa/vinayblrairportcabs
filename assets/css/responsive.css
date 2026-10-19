@@ -370,6 +370,18 @@ body.mobile-nav-open .site-header {
     display: flex;
     gap: 10px;
   }
+
+  .verified-showcase-inner {
+    grid-template-columns: 1fr;
+  }
+
+  .verified-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .verified-showcase-body {
+    padding: 24px 20px;
+  }
 }
 
 /* --------------------------------------------------------------------------

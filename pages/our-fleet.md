@@ -27,6 +27,51 @@ url: "/our-fleet/"
       {% endfor %}
     </div>
 
+    <!-- Verified Fleet Inspection Showcase -->
+    <div style="margin-top: 64px;">
+      <div style="text-align: center; max-width: 760px; margin: 0 auto 32px auto;">
+        <span class="badge-tag">Actual Fleet Photos</span>
+        <h3 style="font-size: 1.85rem; margin-bottom: 12px;">Real Commercial Vehicles In Service</h3>
+        <p style="color: var(--color-text-muted);">
+          Every vehicle dispatched by BLR Airport Cab is commercially permitted, regularly inspected, and fully outfitted for passenger safety and comfort. Here is an authentic preview of our sedan fleet:
+        </p>
+      </div>
+
+      <div class="verified-gallery-grid">
+        <div class="verified-gallery-item">
+          <picture>
+            <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-banner.webp" type="image/webp">
+            <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Sedan Multi-Angle Exterior Views at Kempegowda Airport" width="1024" height="535" loading="lazy">
+          </picture>
+          <div class="verified-gallery-caption">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+              <strong>Exterior Profile &amp; Airport Transit Setup</strong>
+              <span class="verified-pill">KA 03 AD 9618</span>
+            </div>
+            <p style="color: var(--color-text-muted); font-size: 0.85rem; margin: 6px 0 0 0;">
+              Commercial yellow-board Toyota Etios sedan with dedicated airport permits, clean aerodynamic profile, and full multi-angle inspection.
+            </p>
+          </div>
+        </div>
+
+        <div class="verified-gallery-item">
+          <picture>
+            <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-showcase.webp" type="image/webp">
+            <img src="{{ site.baseurl }}/assets/images/blr-sedan-showcase.jpg" alt="BLR Airport Cab Sedan Interior Seats and Angle Views" width="1024" height="1024" loading="lazy">
+          </picture>
+          <div class="verified-gallery-caption">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
+              <strong>Sanitized Cabin &amp; Quilted Seating</strong>
+              <span class="verified-pill verified-pill-blue">Dual Airbag &amp; AC</span>
+            </div>
+            <p style="color: var(--color-text-muted); font-size: 0.85rem; margin: 6px 0 0 0;">
+              Plush quilted leatherette upholstery, sanitized front and rear seats, ample legroom, and air conditioning for stress-free transit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Detailed Fleet Comparison Table -->
     <div style="max-width: 960px; margin: 64px auto 0 auto;">
       <h3 style="text-align: center; margin-bottom: 24px;">Quick Fleet Comparison Guide</h3>

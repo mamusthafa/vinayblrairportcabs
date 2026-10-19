@@ -94,6 +94,25 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a Bangalore Airport Taxi."
         {% include fleet-card.html vehicle=vehicle %}
       {% endfor %}
     </div>
+
+    <!-- Real Verified Sedan Card -->
+    <div class="verified-showcase-banner-wrap" style="margin-top: 48px;">
+      <picture>
+        <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-banner.webp" type="image/webp">
+        <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Real Verified Sedan at Kempegowda Airport Bengaluru" width="1024" height="535" loading="lazy">
+      </picture>
+      <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <strong style="color: var(--color-text);">Inspected Commercial Vehicles with 24/7 Availability</strong>
+          <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
+            Pre-booked airport taxis with verified commercial drivers, air conditioning, and luggage boot space.
+          </p>
+        </div>
+        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20need%20a%20Bangalore%20Airport%20Taxi." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          Book on WhatsApp &rarr;
+        </a>
+      </div>
+    </div>
   </div>
 </section>
 

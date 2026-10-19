@@ -68,5 +68,24 @@ wa_custom_text: "Hi BLR Airport Cab, I want to book an airport pickup taxi from 
         {% include fleet-card.html vehicle=vehicle %}
       {% endfor %}
     </div>
+
+    <!-- Real Verified Sedan Card -->
+    <div class="verified-showcase-banner-wrap" style="margin-top: 48px;">
+      <picture>
+        <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-banner.webp" type="image/webp">
+        <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Sedan Waiting at Kempegowda Airport Arrivals" width="1024" height="535" loading="lazy">
+      </picture>
+      <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
+        <div>
+          <strong style="color: var(--color-text);">Confirmed Driver Waiting at BLR Terminal 1 or Terminal 2</strong>
+          <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
+            Skip the app taxi wait queues. Driver and car number (Toyota Etios KA03AD9618 or Innova Crysta) dispatched prior to landing.
+          </p>
+        </div>
+        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20need%20an%20airport%20pickup%20taxi%20upon%20arrival." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          Book Airport Pickup &rarr;
+        </a>
+      </div>
+    </div>
   </div>
 </section>

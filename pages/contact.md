@@ -63,6 +63,17 @@ url: "/contact/"
               <p style="font-size: 0.9rem; margin-bottom: 0;">Bengaluru, Karnataka &amp; Kempegowda International Airport (BLR)</p>
             </div>
           </div>
+
+          <!-- 24/7 Verified Taxi Booking Visual Flyer -->
+          <div style="background: #FFFFFF; border-radius: var(--radius-lg); border: 1px solid var(--color-border); overflow: hidden; box-shadow: var(--shadow-md);">
+            <picture>
+              <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-flyer.webp" type="image/webp">
+              <img src="{{ site.baseurl }}/assets/images/blr-sedan-flyer.jpg" alt="BLR Airport Cab 24/7 Booking Card — Call or WhatsApp 9845798106" width="819" height="1024" loading="lazy" style="width: 100%; height: auto; display: block;">
+            </picture>
+            <div style="padding: 16px 20px; text-align: center; background-color: var(--color-bg-light); border-top: 1px solid var(--color-border);">
+              <span style="font-size: 0.85rem; color: var(--color-text-muted); font-weight: 600;">Save our 24/7 Airport Cab number on WhatsApp: <strong>+91 9845798106</strong></span>
+            </div>
+          </div>
         </div>
       </div>
 
