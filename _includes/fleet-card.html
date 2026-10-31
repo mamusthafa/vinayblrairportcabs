@@ -22,11 +22,20 @@
       </div>
     </div>
 
+    <!-- Pricing Box for 50 KM Range -->
+    <div class="fleet-pricing-card">
+      <div class="fleet-price-main">
+        <span class="fleet-fare-label">Airport Fare (50 KM Range)</span>
+        <span class="fleet-price-value">{{ include.vehicle.fare }}</span>
+      </div>
+      <span class="fleet-price-tag">Fixed Rate</span>
+    </div>
+
     <p>{{ include.vehicle.description }}</p>
 
     <div style="margin-top: auto; display: flex; flex-direction: column; gap: 8px;">
-      <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20{{ include.vehicle.name | url_encode }}." class="btn btn-whatsapp btn-full" target="_blank" rel="noopener noreferrer" data-track-location="fleet_card_wa">
-        Enquire on WhatsApp &rarr;
+      <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20{{ include.vehicle.name | url_encode }}%20at%20{{ include.vehicle.fare | url_encode }}%20for%2050%20km%20range." class="btn btn-whatsapp btn-full" target="_blank" rel="noopener noreferrer" data-track-location="fleet_card_wa">
+        Book on WhatsApp &rarr;
       </a>
       <a href="{{ site.baseurl }}/contact/?vehicle={{ include.vehicle.id }}" class="btn btn-outline-primary btn-sm btn-full">
         Check Availability

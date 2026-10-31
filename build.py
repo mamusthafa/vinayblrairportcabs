@@ -130,6 +130,8 @@ def load_data():
     if os.path.exists(vehicles_file):
         with open(vehicles_file, "r", encoding="utf-8") as f:
             content = f.read()
+            if content.startswith("- id: "):
+                content = content[2:]
             blocks = content.split("\n- id: ")
             for idx, block in enumerate(blocks):
                 if not block.strip():
@@ -211,7 +213,9 @@ def render_includes(html, context, baseurl, site_data):
 
         if filename == "fleet-card.html" and "vehicle" in args:
             veh_name = args["vehicle"]
-            veh = next((v for v in site_data["vehicles"] if v.get("id") == veh_name or veh_name.endswith(v.get("id", ""))), None)
+            if veh_name == "suv":
+                veh_name = "innova-crysta"
+            veh = next((v for v in site_data["vehicles"] if v.get("id") == veh_name or (v.get("id") and veh_name.endswith(v.get("id", "")))), None)
             if not veh and site_data["vehicles"]:
                 veh = site_data["vehicles"][0]
             if veh:
@@ -288,10 +292,14 @@ def render_fleet_card(template, veh, baseurl):
     card = card.replace("{{ include.vehicle.ac }}", veh.get("ac", ""))
     card = card.replace("{{ include.vehicle.image }}", veh.get("image", ""))
     card = card.replace("{{ include.vehicle.description }}", veh.get("description", ""))
+    card = card.replace("{{ include.vehicle.fare }}", veh.get("fare", ""))
+    card = card.replace("{{ include.vehicle.price_note }}", veh.get("price_note", ""))
     card = card.replace("{{ site.baseurl }}", baseurl)
     
     encoded_name = urllib.parse.quote(veh.get("name", ""))
     card = card.replace("{{ include.vehicle.name | url_encode }}", encoded_name)
+    encoded_fare = urllib.parse.quote(veh.get("fare", ""))
+    card = card.replace("{{ include.vehicle.fare | url_encode }}", encoded_fare)
     return card
 
 def process_site_loops(html, site_data, baseurl):

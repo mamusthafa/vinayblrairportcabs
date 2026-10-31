@@ -58,9 +58,9 @@ wa_custom_text: "Hi BLR Airport Cab, I want to book an airport pickup taxi from 
 <section class="section section-light">
   <div class="container">
     <div class="section-header">
-      <span class="badge-tag">Luggage &amp; Group Options</span>
-      <h2>Recommended Arrival Cabs</h2>
-      <p>Clean sanitized vehicles equipped for smooth highway cruising back to Bengaluru city.</p>
+      <span class="badge-tag">Fixed Rates for 50 KM Range</span>
+      <h2>Recommended Arrival Cabs &amp; Fares</h2>
+      <p>Clean sanitized vehicles with fixed rates for 50 KM range: Sedan ₹1,299 • Innova Crysta ₹2,200 • Innova Hybrid ₹2,400 • Tempo Traveller ₹5,000 • Force Urbania ₹7,000.</p>
     </div>
 
     <div class="fleet-grid">
@@ -77,9 +77,9 @@ wa_custom_text: "Hi BLR Airport Cab, I want to book an airport pickup taxi from 
       </picture>
       <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
         <div>
-          <strong style="color: var(--color-text);">Confirmed Driver Waiting at BLR Terminal 1 or Terminal 2</strong>
+          <strong style="color: var(--color-text);">Confirmed Driver Waiting at BLR Terminal 1 or Terminal 2 (Sedan ₹1,299 for 50 KM)</strong>
           <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
-            Skip the app taxi wait queues. Driver and car number (Toyota Etios KA03AD9618 or Innova Crysta) dispatched prior to landing.
+            Skip the app taxi wait queues. Driver and car number (Toyota Etios KA03AD9618 or Innova Crysta) dispatched prior to landing with zero flight surge.
           </p>
         </div>
         <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20need%20an%20airport%20pickup%20taxi%20upon%20arrival." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">

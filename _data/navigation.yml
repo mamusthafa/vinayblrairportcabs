@@ -51,15 +51,17 @@ footer_services:
     url: "/bangalore-outstation-cabs/"
 
 footer_fleet:
-  - title: "Sedan (Dzire / Etios)"
+  - title: "Sedan (Dzire / Etios) - ₹1,299"
     url: "/our-fleet/#sedan"
-  - title: "SUV (Innova Crysta / Ertiga)"
-    url: "/our-fleet/#suv"
-  - title: "Tempo Traveller (12/16 Seater)"
+  - title: "Innova Crysta - ₹2,200"
+    url: "/our-fleet/#innova-crysta"
+  - title: "Innova Hybrid - ₹2,400"
+    url: "/our-fleet/#innova-hybrid"
+  - title: "Tempo Traveller (12/16 Seater) - ₹5,000"
     url: "/our-fleet/#tempo-traveller"
-  - title: "Force Urbania (Luxury Van)"
+  - title: "Force Urbania (Luxury Van) - ₹7,000"
     url: "/our-fleet/#urbania"
-  - title: "Airport Taxi Fare Guide"
+  - title: "Airport Taxi Fare Guide (50 KM Range)"
     url: "/bangalore-airport-taxi-fare/"
 
 footer_company:

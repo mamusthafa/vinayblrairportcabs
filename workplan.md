@@ -341,7 +341,12 @@ Larger groups and comfortable group travel
 
 Display seat count, luggage capacity, AC availability and exact vehicle type only after confirmation from the owner.
 
-The `/bangalore-airport-taxi-fare/` page should support fare enquiries by vehicle, pickup locality and journey direction. Until actual rates are confirmed, use Request Fare rather than invented starting prices.
+Confirmed standard airport transfer rates for up to 50 KM range:
+- Sedan Vehicle (Maruti Dzire / Toyota Etios): ₹1,299 (50 km range)
+- Innova Crysta: ₹2,200 (50 km range)
+- Innova Hybrid: ₹2,400 (50 km range)
+- Tempo Traveller (12/16 Seater): ₹5,000 (50 km range)
+- Force Urbania (Luxury Van): ₹7,000 (50 km range)
 
 ## 7. Google Search Ads landing pages and sitelinks
 

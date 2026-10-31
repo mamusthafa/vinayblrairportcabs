@@ -3,7 +3,7 @@ layout: service
 title: "Bangalore Airport Taxi Service | 24/7 Pickup & Drop"
 h1: "Bangalore Airport Taxi Service – 24/7 Pickup & Drop"
 lead: "Book dependable, private airport transfers between Bengaluru city and Kempegowda International Airport (BLR). Punctual doorstep pickups, 24/7 availability, clean air-conditioned cabs, and verified professional drivers."
-description: "Bangalore Airport Taxi Service — 24/7 Kempegowda Airport pickup & drop cabs. Sedan, SUV, Innova Crysta, Tempo Traveller & Urbania. Transparent fixed pricing."
+description: "Bangalore Airport Taxi Service — 24/7 Kempegowda Airport pickup & drop cabs. Sedan ₹1,299, Innova Crysta ₹2,200, Innova Hybrid ₹2,400, Tempo Traveller ₹5,000, Urbania ₹7,000 for 50 KM range."
 keywords: "Bangalore airport taxi service, Bengaluru airport taxi, Kempegowda airport cab booking, Bangalore airport transfer, BLR airport taxi booking"
 hero_badge: "Kempegowda International Airport (BLR)"
 booking_tab: "airport-drop"
@@ -84,9 +84,9 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a Bangalore Airport Taxi."
 <section class="section section-light">
   <div class="container">
     <div class="section-header">
-      <span class="badge-tag">Vehicle Fleet</span>
-      <h2>Airport Transfer Vehicle Options</h2>
-      <p>Select the vehicle that best matches your passenger count, luggage volume, and travel style.</p>
+      <span class="badge-tag">Vehicle Fleet &amp; Fares</span>
+      <h2>Airport Transfer Vehicle Options &amp; Rates (50 KM Range)</h2>
+      <p>Fixed pricing for up to 50 KM range: Sedan ₹1,299 • Innova Crysta ₹2,200 • Innova Hybrid ₹2,400 • Tempo Traveller ₹5,000 • Force Urbania ₹7,000.</p>
     </div>
 
     <div class="fleet-grid">
@@ -103,13 +103,13 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a Bangalore Airport Taxi."
       </picture>
       <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
         <div>
-          <strong style="color: var(--color-text);">Inspected Commercial Vehicles with 24/7 Availability</strong>
+          <strong style="color: var(--color-text);">Transparent Sedan Airport Fare: ₹1,299 (50 KM Range)</strong>
           <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
-            Pre-booked airport taxis with verified commercial drivers, air conditioning, and luggage boot space.
+            Pre-booked airport taxis with verified commercial drivers, air conditioning, and luggage boot space. Zero surge guarantee.
           </p>
         </div>
-        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20need%20a%20Bangalore%20Airport%20Taxi." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
-          Book on WhatsApp &rarr;
+        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20book%20a%20Sedan%20taxi%20at%20Rs%201299%20for%2050%20km%20range." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          Book Sedan ₹1,299 &rarr;
         </a>
       </div>
     </div>

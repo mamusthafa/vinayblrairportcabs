@@ -74,9 +74,9 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a cab from Bangalore to Kemp
 <section class="section section-light">
   <div class="container">
     <div class="section-header">
-      <span class="badge-tag">Select Your Vehicle</span>
+      <span class="badge-tag">Fixed Rates for 50 KM Range</span>
       <h2>Choose the Right Cab for Your Airport Drop</h2>
-      <p>Clean, air-conditioned private cars with ample luggage boot space.</p>
+      <p>Clean, air-conditioned private cars with fixed pricing for 50 KM range: Sedan ₹1,299 • Innova Crysta ₹2,200 • Innova Hybrid ₹2,400 • Tempo Traveller ₹5,000 • Force Urbania ₹7,000.</p>
     </div>
 
     <div class="fleet-grid">
@@ -93,13 +93,13 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a cab from Bangalore to Kemp
       </picture>
       <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
         <div>
-          <strong style="color: var(--color-text);">Inspected Commercial Vehicles for Punctual Drops</strong>
+          <strong style="color: var(--color-text);">Inspected Commercial Sedans at ₹1,299 (50 KM Range)</strong>
           <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
-            Scheduled doorstep pickups across Whitefield, Electronic City, Koramangala, and all Bengaluru locations. Fixed fares with zero flight surge.
+            Scheduled doorstep pickups across Whitefield, Indiranagar, Koramangala, and all Bengaluru locations. Fixed fares with zero flight surge.
           </p>
         </div>
-        <a href="tel:+919845798106" class="btn btn-call btn-sm">
-          Call: +91 9845798106
+        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20book%20a%20Sedan%20taxi%20at%20Rs%201299%20for%2050%20km%20range." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          Book Sedan ₹1,299 &rarr;
         </a>
       </div>
     </div>
