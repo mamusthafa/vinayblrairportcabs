@@ -14,9 +14,9 @@ url: "/our-fleet/"
   <div class="container">
     <div style="max-width: 860px; margin: 0 auto 48px auto; text-align: center;">
       <span class="badge-tag">Fleet Specifications</span>
-      <h2>Designed for Safety, Comfort, and Generous Luggage</h2>
+      <h2>Designed for Safety, Reliability, and Comfort</h2>
       <p class="lead">
-        Every vehicle in the BLR Airport Cab fleet is commercially registered, regularly serviced, and driven by background-verified commercial drivers. Vehicles feature working air conditioning, charging points, and sanitized interiors.
+        Every vehicle in the BLR Airport Cab fleet is commercially registered, regularly serviced, and driven by background-verified commercial drivers. Vehicles feature comfortable seating, charging points, and sanitized interiors.
       </p>
     </div>
 
@@ -82,7 +82,6 @@ url: "/our-fleet/"
               <th>Vehicle Class</th>
               <th>Common Models</th>
               <th>Seating Capacity</th>
-              <th>Luggage Capacity</th>
               <th>Fare Quotation</th>
               <th>Ideal Journey</th>
             </tr>
@@ -92,7 +91,6 @@ url: "/our-fleet/"
               <td><strong>Sedan Vehicle</strong></td>
               <td>Maruti Dzire, Toyota Etios</td>
               <td>4 Passengers + Driver</td>
-              <td>2 Medium Bags + Hand Luggage</td>
               <td>
                 <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Sedan." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
@@ -104,7 +102,6 @@ url: "/our-fleet/"
               <td><strong>Innova Crysta</strong></td>
               <td>Toyota Innova Crysta</td>
               <td>6 – 7 Passengers + Driver</td>
-              <td>4 Large Suitcases + Cabin Bags</td>
               <td>
                 <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Crysta." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
@@ -116,7 +113,6 @@ url: "/our-fleet/"
               <td><strong>Innova Hybrid</strong></td>
               <td>Toyota Innova Hycross / Hybrid</td>
               <td>6 – 7 Passengers + Driver</td>
-              <td>4 Large Suitcases + Hand Luggage</td>
               <td>
                 <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Hybrid." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
@@ -128,7 +124,6 @@ url: "/our-fleet/"
               <td><strong>Tempo Traveller</strong></td>
               <td>Force Tempo Traveller 12/16</td>
               <td>12 – 16 Pushback Luxury Seats</td>
-              <td>Dedicated Luggage Carrier</td>
               <td>
                 <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Tempo%20Traveller." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
@@ -140,7 +135,6 @@ url: "/our-fleet/"
               <td><strong>Force Urbania</strong></td>
               <td>Force Urbania Executive (9/13)</td>
               <td>9 – 13 Reclining Bucket Seats</td>
-              <td>Spacious Enclosed Luggage Boot</td>
               <td>
                 <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Force%20Urbania." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;

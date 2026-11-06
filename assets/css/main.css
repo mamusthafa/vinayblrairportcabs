@@ -1176,12 +1176,13 @@ p {
 }
 
 .fleet-specs-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 18px;
   background-color: var(--color-bg-light);
-  padding: 12px;
+  padding: 10px 14px;
   border-radius: var(--radius-md);
 }
 

@@ -518,7 +518,6 @@ body.mobile-nav-open .site-header {
   }
 
   .fleet-specs-grid {
-    grid-template-columns: 1fr;
     gap: 8px;
   }
 

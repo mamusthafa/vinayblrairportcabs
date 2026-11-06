@@ -153,7 +153,7 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a Bangalore Airport Taxi."
       <div class="alert-box alert-info">
         <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
         <div>
-          <strong>Luggage Recommendation:</strong> For international flights or families with 3 or more large suitcases, we strongly recommend booking a 6/7-seater SUV (such as Toyota Innova Crysta) to ensure luggage fits safely in the boot without compromising passenger seating comfort.
+          <strong>Vehicle Recommendation:</strong> For group transfers or families traveling together, we recommend booking a 6/7-seater SUV (such as Toyota Innova Crysta) for maximum legroom and comfortable transit.
         </div>
       </div>
     </div>

@@ -3,10 +3,8 @@
   models: "Toyota Etios, Maruti Dzire"
   category: "Economy & Executive Transfer"
   capacity: "4 Passengers"
-  luggage: "2 Medium Bags + 2 Hand Bags"
-  ac: "Fully Air Conditioned"
   image: "assets/images/blr-sedan-banner.webp"
-  description: "Perfect for solo business travelers, couples, or small families heading to or from Kempegowda International Airport. Quiet, fuel-efficient, and comfortable ride with boot space for standard luggage."
+  description: "Perfect for solo business travelers, couples, or small families heading to or from Kempegowda International Airport. Quiet, fuel-efficient, and comfortable ride."
   ideal_for:
     - "Airport pickup & drop"
     - "Corporate meetings & daily commute"
@@ -14,8 +12,6 @@
   features:
     - "Seating: 4 Passengers + Driver"
     - "Transparent fixed fare on enquiry"
-    - "Luggage: 2 Suitcases + 2 Handbags"
-    - "Air Conditioning & Heating"
     - "Bottled water & phone charging points"
     - "Clean sanitized interiors"
 
@@ -24,19 +20,15 @@
   models: "Toyota Innova Crysta"
   category: "Premium Family & Executive Fleet"
   capacity: "6 - 7 Passengers"
-  luggage: "4 Large Suitcases + Hand Luggage"
-  ac: "Dual Zone Air Conditioned"
   image: "assets/images/suv.webp"
-  description: "The gold standard for comfortable airport transfers and outstation journeys. Offers supreme legroom, plush recliner seating, large luggage capacity, and unmatched highway ride quality."
+  description: "The gold standard for comfortable airport transfers and outstation journeys. Offers supreme legroom, plush recliner seating, and unmatched highway ride quality."
   ideal_for:
-    - "Families traveling with heavy flight luggage"
+    - "Families traveling to and from Kempegowda Airport"
     - "VIP executive & corporate airport transfers"
     - "Outstation holidays to Mysore, Coorg, Ooty"
   features:
     - "Seating: 6 to 7 Passengers + Driver"
     - "Transparent fixed fare on enquiry"
-    - "Luggage: 4+ Large Suitcases + Cabin Bags"
-    - "Individual rear AC vents"
     - "Superior suspension for smooth highway cruising"
     - "Child seat request compatibility"
 
@@ -45,8 +37,6 @@
   models: "Toyota Innova Hycross / Hybrid"
   category: "Eco-Executive Luxury MPV"
   capacity: "6 - 7 Passengers"
-  luggage: "4 Large Suitcases + Hand Luggage"
-  ac: "Dual Zone Climate Control"
   image: "assets/images/suv.webp"
   description: "Ultra-modern, whisper-quiet hybrid MPV offering next-generation comfort, plush captain seats, ambient interior lighting, and effortless cruising for executive airport travel."
   ideal_for:
@@ -56,7 +46,6 @@
   features:
     - "Seating: 6 to 7 Passengers + Driver"
     - "Transparent fixed fare on enquiry"
-    - "Luggage: 4+ Large Suitcases + Hand Luggage"
     - "Silent hybrid powertrain & dual AC"
     - "Plush captain recliners with leg rests"
     - "Fast USB phone charging at every row"
@@ -66,8 +55,6 @@
   models: "Force Tempo Traveller (12 / 16 Seater)"
   category: "Group & Corporate Travel"
   capacity: "12 - 16 Passengers"
-  luggage: "Dedicated High-Capacity Luggage Carrier"
-  ac: "High-Power Roof AC"
   image: "assets/images/tempo-traveller.webp"
   description: "Spacious luxury passenger van engineered for large family reunions, wedding delegations, corporate teams, and pilgrim tours. Individual push-back seats and generous standing height."
   ideal_for:
@@ -77,7 +64,6 @@
   features:
     - "Seating: 12 to 16 Push-Back Luxury Seats"
     - "Transparent fixed fare on enquiry"
-    - "Ample boot + overhead luggage rack"
     - "Wide gangway with ample head clearance"
     - "Music system & USB charging at seat bays"
     - "Experienced commercial highway driver"
@@ -87,8 +73,6 @@
   models: "Force Urbania Luxury Van (9 / 13 Seater)"
   category: "Ultra-Premium Executive Van"
   capacity: "9 - 13 Passengers"
-  luggage: "Spacious Enclosed Luggage Boot"
-  ac: "Climate-Controlled Independent AC Vents"
   image: "assets/images/urbania.webp"
   description: "European-styled next-generation executive van featuring reclining bucket seats, ambient interior lighting, panoramic windows, and whisper-quiet cabin acoustics for prestigious delegations."
   ideal_for:
@@ -98,7 +82,7 @@
   features:
     - "Seating: 9 to 13 Individual Reclining Bucket Seats"
     - "Transparent fixed fare on enquiry"
-    - "Panoramic tinted windows & individual reading lamps"
+    - "Panoramic windows & ambient cabin lighting"
     - "Individual USB fast-charge ports at every seat"
     - "Ultra-smooth ride quality with independent suspension"
     - "Professional uniformed senior driver"

@@ -28,7 +28,7 @@ url: "/bangalore-airport-taxi-fare/"
             <tr>
               <th>Vehicle Class</th>
               <th>Common Models</th>
-              <th>Seating &amp; Luggage</th>
+              <th>Seating Capacity</th>
               <th>Fare Quotation</th>
               <th>Instant Enquiry</th>
             </tr>
@@ -40,7 +40,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: var(--color-text-muted);">Economy &amp; Executive</small>
               </td>
               <td>Toyota Etios, Maruti Dzire</td>
-              <td>4 Pax + 2 Bags</td>
+              <td>4 Passengers</td>
               <td>
                 <span style="color: var(--color-primary); font-weight: 700;">Best Rate on Request</span><br>
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
@@ -57,7 +57,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: var(--color-text-muted);">Premium Family MPV</small>
               </td>
               <td>Toyota Innova Crysta</td>
-              <td>6–7 Pax + 4 Large Bags</td>
+              <td>6–7 Passengers</td>
               <td>
                 <span style="color: var(--color-primary); font-weight: 700;">Best Rate on Request</span><br>
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
@@ -74,7 +74,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: var(--color-text-muted);">Eco-Luxury MPV</small>
               </td>
               <td>Toyota Innova Hycross / Hybrid</td>
-              <td>6–7 Pax + 4 Large Bags</td>
+              <td>6–7 Passengers</td>
               <td>
                 <span style="color: var(--color-primary); font-weight: 700;">Best Rate on Request</span><br>
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
@@ -91,7 +91,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: var(--color-text-muted);">Group &amp; Corporate</small>
               </td>
               <td>Force Tempo Traveller 12/16</td>
-              <td>12–16 Pax + Heavy Luggage</td>
+              <td>12–16 Passengers</td>
               <td>
                 <span style="color: var(--color-primary); font-weight: 700;">Best Rate on Request</span><br>
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
@@ -108,7 +108,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: var(--color-text-muted);">Ultra-Premium Luxury Van</small>
               </td>
               <td>Force Urbania Executive (9/13)</td>
-              <td>9–13 Pax + Enclosed Boot</td>
+              <td>9–13 Passengers</td>
               <td>
                 <span style="color: var(--color-primary); font-weight: 700;">Best Rate on Request</span><br>
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
