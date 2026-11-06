@@ -46,7 +46,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
               </td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Sedan%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Sedan%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -63,7 +63,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
               </td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Crysta%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Crysta%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -80,7 +80,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
               </td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Hybrid%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Hybrid%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -97,7 +97,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
               </td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Tempo%20Traveller%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Tempo%20Traveller%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -114,7 +114,7 @@ url: "/bangalore-airport-taxi-fare/"
                 <small style="color: #059669; font-weight: 600;">Fixed Quote • Zero Surge</small>
               </td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Force%20Urbania%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Force%20Urbania%20airport%20transfer." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -144,37 +144,37 @@ url: "/bangalore-airport-taxi-fare/"
               <td><strong>Hebbal / Yelahanka / Sahakar Nagar</strong></td>
               <td>20 – 30 KM</td>
               <td>Sedan / SUV</td>
-              <td><a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Hebbal%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
+              <td><a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Hebbal%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
             </tr>
             <tr>
               <td><strong>Indiranagar / MG Road / Frazer Town</strong></td>
               <td>35 – 40 KM</td>
               <td>Sedan / SUV / TT</td>
-              <td><a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Indiranagar%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
+              <td><a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Indiranagar%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
             </tr>
             <tr>
               <td><strong>Koramangala / HSR Layout / Bellandur</strong></td>
               <td>42 – 48 KM</td>
               <td>Sedan / SUV / TT</td>
-              <td><a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Koramangala%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
+              <td><a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Koramangala%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
             </tr>
             <tr>
               <td><strong>Whitefield / ITPL / Marathahalli</strong></td>
               <td>40 – 48 KM</td>
               <td>Sedan / SUV / TT</td>
-              <td><a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Whitefield%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
+              <td><a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Whitefield%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
             </tr>
             <tr>
               <td><strong>Electronic City / Bommasandra</strong></td>
               <td>52 – 62 KM</td>
               <td>Sedan / SUV / TT</td>
-              <td><a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Electronic%20City%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
+              <td><a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Electronic%20City%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
             </tr>
             <tr>
               <td><strong>JP Nagar / Jayanagar / Banashankari</strong></td>
               <td>42 – 50 KM</td>
               <td>Sedan / SUV / TT</td>
-              <td><a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Jayanagar%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
+              <td><a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Jayanagar%20to%20Airport." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">Request Quote</a></td>
             </tr>
           </tbody>
         </table>
@@ -193,7 +193,7 @@ url: "/bangalore-airport-taxi-fare/"
               Pre-confirmed fixed pricing for our verified commercial sedans. Zero midnight multipliers or sudden weather surcharges.
             </p>
           </div>
-          <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20my%20airport%20trip." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20my%20airport%20trip." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
             Get Exact Quote &rarr;
           </a>
         </div>
@@ -247,8 +247,8 @@ url: "/bangalore-airport-taxi-fare/"
       </div>
 
       <div style="text-align: center; margin-top: 32px;">
-        <a href="tel:+919845798106" class="btn btn-accent btn-lg" data-track-location="fare_page_call">
-          Call Booking Desk for Instant Confirmation: +91 9845798106
+        <a href="tel:+919180182667" class="btn btn-accent btn-lg" data-track-location="fare_page_call">
+          Call Booking Desk for Instant Confirmation: +91 9180182667
         </a>
       </div>
     </div>

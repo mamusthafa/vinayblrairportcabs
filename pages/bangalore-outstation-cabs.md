@@ -3,7 +3,7 @@ layout: service
 title: "Outstation Cabs from Bangalore | One-Way & Round-Trip Taxi"
 h1: "Outstation Taxi Service from Bangalore"
 lead: "Book reliable, comfortable outstation cabs from Bangalore to popular South Indian destinations including Mysore, Coorg, Ooty, Chikmagalur, and Tirupati. Available for one-way drops, round trips, and multi-day holiday packages with experienced highway drivers."
-description: "Outstation Cabs from Bangalore — One-way & round-trip taxi to Mysore, Coorg, Ooty, Chikmagalur & Tirupati. Clean AC Sedan, Innova Crysta, Tempo Traveller & Urbania. Call +91 9845798106."
+description: "Outstation Cabs from Bangalore — One-way & round-trip taxi to Mysore, Coorg, Ooty, Chikmagalur & Tirupati. Clean AC Sedan, Innova Crysta, Tempo Traveller & Urbania. Call +91 9180182667."
 keywords: "outstation cabs from bangalore, bangalore outstation taxi service, bangalore to mysore cab, bangalore to coorg cab, bangalore to ooty cab"
 hero_badge: "Highway Tested Fleet"
 booking_tab: "outstation"

@@ -52,7 +52,7 @@ url: "/privacy-policy/"
       </p>
       <ul style="margin: 0 0 20px 24px; color: var(--color-text-muted);">
         <li><strong>Email:</strong> <a href="mailto:vinaygowdapr1982@gmail.com">vinaygowdapr1982@gmail.com</a></li>
-        <li><strong>Phone:</strong> <a href="tel:+919845798106">+91 9845798106</a></li>
+        <li><strong>Phone:</strong> <a href="tel:+919180182667">+91 9180182667</a></li>
         <li><strong>Location:</strong> Bengaluru, Karnataka, India</li>
       </ul>
     </div>

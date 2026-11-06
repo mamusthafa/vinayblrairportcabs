@@ -98,7 +98,7 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a cab from Bangalore to Kemp
             Scheduled doorstep pickups across Whitefield, Indiranagar, Koramangala, and all Bengaluru locations. Fixed fares with zero flight surge.
           </p>
         </div>
-        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20Sedan%20airport%20drop." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20Sedan%20airport%20drop." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
           Enquire on WhatsApp &rarr;
         </a>
       </div>

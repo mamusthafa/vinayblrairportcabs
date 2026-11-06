@@ -55,7 +55,7 @@ url: "/booking-terms/"
 
       <h3>6. Lost Property</h3>
       <p>
-        Please inspect the vehicle thoroughly before exiting. While our drivers make every effort to report and return any items left behind, BLR Airport Cab is not responsible for personal items lost or damaged during transit. Contact our helpline immediately at <a href="tel:+919845798106">+91 9845798106</a> if you misplace an item.
+        Please inspect the vehicle thoroughly before exiting. While our drivers make every effort to report and return any items left behind, BLR Airport Cab is not responsible for personal items lost or damaged during transit. Contact our helpline immediately at <a href="tel:+919180182667">+91 9180182667</a> if you misplace an item.
       </p>
     </div>
   </div>

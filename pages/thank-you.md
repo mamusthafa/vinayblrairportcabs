@@ -17,15 +17,15 @@ url: "/thank-you/"
 
       <h2 style="margin-bottom: 16px;">What Happens Next?</h2>
       <p style="font-size: 1.05rem; color: var(--color-text-muted); margin-bottom: 32px; line-height: 1.7;">
-        If you initiated your booking via WhatsApp, please ensure the pre-filled message has been sent to our dispatch team at <strong>+91 9845798106</strong>. Our desk will confirm vehicle availability and driver allocation within minutes.
+        If you initiated your booking via WhatsApp, please ensure the pre-filled message has been sent to our dispatch team at <strong>+91 9180182667</strong>. Our desk will confirm vehicle availability and driver allocation within minutes.
       </p>
 
       <div style="display: flex; flex-direction: column; gap: 14px;">
-        <a href="https://wa.me/919845798106" class="btn btn-whatsapp btn-lg btn-full" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/919180182667" class="btn btn-whatsapp btn-lg btn-full" target="_blank" rel="noopener noreferrer">
           Open WhatsApp to Verify Message
         </a>
-        <a href="tel:+919845798106" class="btn btn-call btn-full">
-          Speak to Booking Desk: +91 9845798106
+        <a href="tel:+919180182667" class="btn btn-call btn-full">
+          Speak to Booking Desk: +91 9180182667
         </a>
         <a href="{{ site.baseurl }}/" class="btn btn-outline-primary btn-full" style="margin-top: 10px;">
           Return to Homepage

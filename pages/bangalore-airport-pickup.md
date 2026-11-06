@@ -3,7 +3,7 @@ layout: service
 title: "Bangalore Airport Pickup Taxi | BLR Airport Cab"
 h1: "Bangalore Airport Pickup Taxi to Bengaluru City"
 lead: "Pre-book your private taxi from Kempegowda International Airport (BLR) to any location in Bengaluru. Avoid long app-taxi queues and dynamic surge fares with a confirmed driver waiting upon arrival."
-description: "Bangalore Airport Pickup Taxi — Reliable cabs from BLR Terminal 1 & Terminal 2 to Indiranagar, Whitefield, Koramangala & all Bengaluru localities. Call +91 9845798106."
+description: "Bangalore Airport Pickup Taxi — Reliable cabs from BLR Terminal 1 & Terminal 2 to Indiranagar, Whitefield, Koramangala & all Bengaluru localities. Call +91 9180182667."
 keywords: "Bangalore airport pickup taxi, cab from Bangalore airport, Kempegowda airport pickup cab, BLR airport to city taxi"
 hero_badge: "Arrivals Taxi Desk"
 booking_tab: "airport-pickup"
@@ -82,7 +82,7 @@ wa_custom_text: "Hi BLR Airport Cab, I want to book an airport pickup taxi from 
             Skip the app taxi wait queues. Driver and car number (Toyota Etios KA03AD9618 or Innova Crysta) dispatched prior to landing with zero flight surge.
           </p>
         </div>
-        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20need%20an%20airport%20pickup%20taxi%20upon%20arrival." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20I%20need%20an%20airport%20pickup%20taxi%20upon%20arrival." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
           Book Airport Pickup &rarr;
         </a>
       </div>

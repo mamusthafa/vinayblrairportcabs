@@ -102,8 +102,8 @@ url: "/about-us/"
         <h3 style="margin-bottom: 12px;">Need Airport or City Transportation?</h3>
         <p style="margin-bottom: 24px;">Our booking desk is ready 24/7 to assist with your itinerary.</p>
         <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
-          <a href="tel:+919845798106" class="btn btn-accent">Call +91 9845798106</a>
-          <a href="https://wa.me/919845798106" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Booking Desk</a>
+          <a href="tel:+919180182667" class="btn btn-accent">Call +91 9180182667</a>
+          <a href="https://wa.me/919180182667" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp Booking Desk</a>
         </div>
       </div>
     </div>

@@ -94,7 +94,7 @@ url: "/our-fleet/"
               <td>4 Passengers + Driver</td>
               <td>2 Medium Bags + Hand Luggage</td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Sedan." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Sedan." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -106,7 +106,7 @@ url: "/our-fleet/"
               <td>6 – 7 Passengers + Driver</td>
               <td>4 Large Suitcases + Cabin Bags</td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Crysta." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Crysta." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -118,7 +118,7 @@ url: "/our-fleet/"
               <td>6 – 7 Passengers + Driver</td>
               <td>4 Large Suitcases + Hand Luggage</td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Hybrid." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Hybrid." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -130,7 +130,7 @@ url: "/our-fleet/"
               <td>12 – 16 Pushback Luxury Seats</td>
               <td>Dedicated Luggage Carrier</td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Tempo%20Traveller." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Tempo%20Traveller." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -142,7 +142,7 @@ url: "/our-fleet/"
               <td>9 – 13 Reclining Bucket Seats</td>
               <td>Spacious Enclosed Luggage Boot</td>
               <td>
-                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Force%20Urbania." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/919180182667?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Force%20Urbania." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
                   Request Quote &rarr;
                 </a>
               </td>
@@ -154,8 +154,8 @@ url: "/our-fleet/"
 
       <!-- Quick Booking CTA -->
       <div style="text-align: center; margin-top: 40px;">
-        <a href="tel:+919845798106" class="btn btn-accent btn-lg" data-track-location="fleet_page_call">
-          Call Fleet Desk: +91 9845798106
+        <a href="tel:+919180182667" class="btn btn-accent btn-lg" data-track-location="fleet_page_call">
+          Call Fleet Desk: +91 9180182667
         </a>
       </div>
     </div>

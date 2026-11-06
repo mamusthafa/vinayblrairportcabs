@@ -364,7 +364,7 @@ def render_liquid_vars(html, meta, baseurl):
     html = html.replace("{{ page.title | default: \"Bangalore Airport Taxi Service | 24/7 Pickup & Drop | BLR Airport Cab\" | escape }}", title)
     html = html.replace("{{ page.title | escape }}", title)
     html = html.replace("{{ page.title }}", title)
-    html = html.replace("{{ page.description | default: \"Book dependable Bangalore Airport Taxi service for Kempegowda International Airport (BLR). 24/7 airport pickup & drop, local cab packages & outstation trips. Call +91 9845798106.\" | escape }}", desc)
+    html = html.replace("{{ page.description | default: \"Book dependable Bangalore Airport Taxi service for Kempegowda International Airport (BLR). 24/7 airport pickup & drop, local cab packages & outstation trips. Call +91 9180182667.\" | escape }}", desc)
     html = html.replace("{{ page.description | escape }}", desc)
     html = html.replace("{{ page.description }}", desc)
     html = html.replace("{{ page.h1 | default: page.title }}", h1)

@@ -21,8 +21,8 @@ Google Ads Ready
 | Business name       | BLR Airport Cab                                                               |
 | Domain              | [https://blrairportcab.com](https://blrairportcab.com?utm_source=chatgpt.com) |
 | Location            | Bengaluru, Karnataka                                                          |
-| Phone               | +91 9845798106                                                                |
-| WhatsApp            | +91 9845798106                                                                |
+| Phone               | +91 9180182667                                                                |
+| WhatsApp            | +91 9180182667                                                                |
 | Email               | vinaygowdapr1982\@gmail.com                                                   |
 | Availability        | 24-hour booking service                                                       |
 | Primary service     | Bangalore Airport Pickup & Drop                                               |
@@ -614,8 +614,8 @@ The sticky CTA must be included from one common file on every page.
 Implementation rules:
 
 - Always visible at the bottom on mobile.
-- Call opens `tel:+919845798106`.
-- WhatsApp opens `https://wa.me/919845798106`.
+- Call opens `tel:+919180182667`.
+- WhatsApp opens `https://wa.me/919180182667`.
 - Use safe-area spacing for iPhones.
 - Reserve enough bottom padding so the bar does not cover content or form buttons.
 - Desktop can use a discreet floating CTA or header booking button.

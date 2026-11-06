@@ -6,7 +6,7 @@
 (function () {
   'use strict';
 
-  var WHATSAPP_PHONE = '919845798106';
+  var WHATSAPP_PHONE = '919180182667';
 
   function initBookingWidgets() {
     var widgets = document.querySelectorAll('.booking-widget-container');

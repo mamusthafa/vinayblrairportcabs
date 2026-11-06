@@ -3,7 +3,7 @@ layout: landing-page
 title: "Contact BLR Airport Cab | 24/7 Booking & Enquiry"
 h1: "Contact & Book Your Taxi"
 lead: "Get in touch with our 24/7 Bengaluru booking desk for immediate airport cab bookings, custom outstation quotes, and corporate transportation enquiries."
-description: "Contact BLR Airport Cab — Call +91 9845798106 or WhatsApp for 24/7 Kempegowda Airport taxi transfers, local packages & outstation trips. Fast response guaranteed."
+description: "Contact BLR Airport Cab — Call +91 9180182667 or WhatsApp for 24/7 Kempegowda Airport taxi transfers, local packages & outstation trips. Fast response guaranteed."
 keywords: "contact blr airport cab, bangalore airport taxi phone number, airport cab booking contact, blr taxi whatsapp"
 category: "24/7 Booking Desk"
 url: "/contact/"
@@ -28,7 +28,7 @@ url: "/contact/"
             <div>
               <h4 style="margin-bottom: 4px;">Phone Booking Line</h4>
               <p style="font-size: 0.85rem; margin-bottom: 6px;">Direct reservations &amp; urgent airport pickups</p>
-              <a href="tel:+919845798106" style="font-weight: 700; font-size: 1.1rem; color: var(--color-call);" data-track-location="contact_page_call">+91 9845798106</a>
+              <a href="tel:+919180182667" style="font-weight: 700; font-size: 1.1rem; color: var(--color-call);" data-track-location="contact_page_call">+91 9180182667</a>
             </div>
           </div>
 
@@ -39,7 +39,7 @@ url: "/contact/"
             <div>
               <h4 style="margin-bottom: 4px;">WhatsApp Instant Desk</h4>
               <p style="font-size: 0.85rem; margin-bottom: 6px;">Instant rate quotes, flight details &amp; location shares</p>
-              <a href="https://wa.me/919845798106" target="_blank" rel="noopener noreferrer" style="font-weight: 700; font-size: 1.1rem; color: #15803D;" data-track-location="contact_page_wa">+91 9845798106</a>
+              <a href="https://wa.me/919180182667" target="_blank" rel="noopener noreferrer" style="font-weight: 700; font-size: 1.1rem; color: #15803D;" data-track-location="contact_page_wa">+91 9180182667</a>
             </div>
           </div>
 
@@ -68,10 +68,10 @@ url: "/contact/"
           <div style="background: #FFFFFF; border-radius: var(--radius-lg); border: 1px solid var(--color-border); overflow: hidden; box-shadow: var(--shadow-md);">
             <picture>
               <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-flyer.webp" type="image/webp">
-              <img src="{{ site.baseurl }}/assets/images/blr-sedan-flyer.jpg" alt="BLR Airport Cab 24/7 Booking Card — Call or WhatsApp 9845798106" width="819" height="1024" loading="lazy" style="width: 100%; height: auto; display: block;">
+              <img src="{{ site.baseurl }}/assets/images/blr-sedan-flyer.jpg" alt="BLR Airport Cab 24/7 Booking Card — Call or WhatsApp 9180182667" width="819" height="1024" loading="lazy" style="width: 100%; height: auto; display: block;">
             </picture>
             <div style="padding: 16px 20px; text-align: center; background-color: var(--color-bg-light); border-top: 1px solid var(--color-border);">
-              <span style="font-size: 0.85rem; color: var(--color-text-muted); font-weight: 600;">Save our 24/7 Airport Cab number on WhatsApp: <strong>+91 9845798106</strong></span>
+              <span style="font-size: 0.85rem; color: var(--color-text-muted); font-weight: 600;">Save our 24/7 Airport Cab number on WhatsApp: <strong>+91 9180182667</strong></span>
             </div>
           </div>
         </div>
