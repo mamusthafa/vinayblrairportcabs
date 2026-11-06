@@ -5,17 +5,15 @@
   capacity: "4 Passengers"
   luggage: "2 Medium Bags + 2 Hand Bags"
   ac: "Fully Air Conditioned"
-  fare: "₹1,299"
-  price_note: "50 KM Range"
   image: "assets/images/blr-sedan-banner.webp"
   description: "Perfect for solo business travelers, couples, or small families heading to or from Kempegowda International Airport. Quiet, fuel-efficient, and comfortable ride with boot space for standard luggage."
   ideal_for:
-    - "Airport pickup & drop (up to 50 km range)"
+    - "Airport pickup & drop"
     - "Corporate meetings & daily commute"
     - "City point-to-point travel"
   features:
     - "Seating: 4 Passengers + Driver"
-    - "Airport Fare: ₹1,299 (50 KM Range)"
+    - "Transparent fixed fare on enquiry"
     - "Luggage: 2 Suitcases + 2 Handbags"
     - "Air Conditioning & Heating"
     - "Bottled water & phone charging points"
@@ -28,8 +26,6 @@
   capacity: "6 - 7 Passengers"
   luggage: "4 Large Suitcases + Hand Luggage"
   ac: "Dual Zone Air Conditioned"
-  fare: "₹2,200"
-  price_note: "50 KM Range"
   image: "assets/images/suv.webp"
   description: "The gold standard for comfortable airport transfers and outstation journeys. Offers supreme legroom, plush recliner seating, large luggage capacity, and unmatched highway ride quality."
   ideal_for:
@@ -38,7 +34,7 @@
     - "Outstation holidays to Mysore, Coorg, Ooty"
   features:
     - "Seating: 6 to 7 Passengers + Driver"
-    - "Airport Fare: ₹2,200 (50 KM Range)"
+    - "Transparent fixed fare on enquiry"
     - "Luggage: 4+ Large Suitcases + Cabin Bags"
     - "Individual rear AC vents"
     - "Superior suspension for smooth highway cruising"
@@ -51,8 +47,6 @@
   capacity: "6 - 7 Passengers"
   luggage: "4 Large Suitcases + Hand Luggage"
   ac: "Dual Zone Climate Control"
-  fare: "₹2,400"
-  price_note: "50 KM Range"
   image: "assets/images/suv.webp"
   description: "Ultra-modern, whisper-quiet hybrid MPV offering next-generation comfort, plush captain seats, ambient interior lighting, and effortless cruising for executive airport travel."
   ideal_for:
@@ -61,7 +55,7 @@
     - "Eco-conscious premium city & airport transfers"
   features:
     - "Seating: 6 to 7 Passengers + Driver"
-    - "Airport Fare: ₹2,400 (50 KM Range)"
+    - "Transparent fixed fare on enquiry"
     - "Luggage: 4+ Large Suitcases + Hand Luggage"
     - "Silent hybrid powertrain & dual AC"
     - "Plush captain recliners with leg rests"
@@ -74,8 +68,6 @@
   capacity: "12 - 16 Passengers"
   luggage: "Dedicated High-Capacity Luggage Carrier"
   ac: "High-Power Roof AC"
-  fare: "₹5,000"
-  price_note: "50 KM Range"
   image: "assets/images/tempo-traveller.webp"
   description: "Spacious luxury passenger van engineered for large family reunions, wedding delegations, corporate teams, and pilgrim tours. Individual push-back seats and generous standing height."
   ideal_for:
@@ -84,7 +76,7 @@
     - "South India multi-day group tours"
   features:
     - "Seating: 12 to 16 Push-Back Luxury Seats"
-    - "Airport Fare: ₹5,000 (50 KM Range)"
+    - "Transparent fixed fare on enquiry"
     - "Ample boot + overhead luggage rack"
     - "Wide gangway with ample head clearance"
     - "Music system & USB charging at seat bays"
@@ -97,8 +89,6 @@
   capacity: "9 - 13 Passengers"
   luggage: "Spacious Enclosed Luggage Boot"
   ac: "Climate-Controlled Independent AC Vents"
-  fare: "₹7,000"
-  price_note: "50 KM Range"
   image: "assets/images/urbania.webp"
   description: "European-styled next-generation executive van featuring reclining bucket seats, ambient interior lighting, panoramic windows, and whisper-quiet cabin acoustics for prestigious delegations."
   ideal_for:
@@ -107,7 +97,7 @@
     - "High-end sightseeing & golf retreats"
   features:
     - "Seating: 9 to 13 Individual Reclining Bucket Seats"
-    - "Airport Fare: ₹7,000 (50 KM Range)"
+    - "Transparent fixed fare on enquiry"
     - "Panoramic tinted windows & individual reading lamps"
     - "Individual USB fast-charge ports at every seat"
     - "Ultra-smooth ride quality with independent suspension"

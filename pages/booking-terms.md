@@ -20,10 +20,9 @@ url: "/booking-terms/"
 
       <h3>2. Fare Inclusions and Exclusions</h3>
       <p>
-        Standard airport transfer quotations are based on a <strong>50 KM package range</strong> between Kempegowda International Airport (BLR) and Bengaluru city destinations. Standard quotations include dedicated vehicle hire, driver charges, and fuel.
+        Unless explicitly quoted as an "all-inclusive package", standard airport transfer quotations include dedicated vehicle hire, driver charges, and fuel for the agreed point-to-point journey.
       </p>
       <ul style="margin: 0 0 20px 24px; color: var(--color-text-muted);">
-        <li><strong>50 KM Range Policy:</strong> Applicable for travel distance up to 50 KM. Suburbs beyond 50 KM are billed on the 50 KM base fare plus nominal extra kilometers.</li>
         <li><strong>Toll Fees:</strong> Highway toll plazas (including the airport expressway trumpet flyover toll on NH 44) are payable at actuals or as confirmed in the quotation.</li>
         <li><strong>Airport Parking:</strong> Parking entry charges at Kempegowda International Airport (BLR) for arrival pickups are payable at actual receipts unless included upfront.</li>
         <li><strong>Outstation Permits &amp; Taxes:</strong> Interstate border permits, state entry taxes, and interstate tolls are billed at actual government receipts.</li>
@@ -34,11 +33,11 @@ url: "/booking-terms/"
         Passengers must adhere to the certified seating and luggage capacities for the booked vehicle category:
       </p>
       <ul style="margin: 0 0 20px 24px; color: var(--color-text-muted);">
-        <li><strong>Sedan:</strong> Maximum 4 passengers. Recommended for 2 large or 3 medium bags. (₹1,299 for 50 KM)</li>
-        <li><strong>Innova Crysta:</strong> Maximum 6 to 7 passengers. Accommodates 4 large bags + cabin bags. (₹2,200 for 50 KM)</li>
-        <li><strong>Innova Hybrid:</strong> Maximum 6 to 7 passengers. Accommodates 4 large bags + cabin bags. (₹2,400 for 50 KM)</li>
-        <li><strong>Tempo Traveller:</strong> Maximum 12 to 16 passengers with dedicated luggage carrier. (₹5,000 for 50 KM)</li>
-        <li><strong>Force Urbania:</strong> Maximum 9 to 13 passengers with spacious enclosed boot. (₹7,000 for 50 KM)</li>
+        <li><strong>Sedan:</strong> Maximum 4 passengers. Recommended for 2 large or 3 medium bags.</li>
+        <li><strong>Innova Crysta:</strong> Maximum 6 to 7 passengers. Accommodates 4 large bags + cabin bags.</li>
+        <li><strong>Innova Hybrid:</strong> Maximum 6 to 7 passengers. Accommodates 4 large bags + cabin bags.</li>
+        <li><strong>Tempo Traveller:</strong> Maximum 12 to 16 passengers with dedicated luggage carrier.</li>
+        <li><strong>Force Urbania:</strong> Maximum 9 to 13 passengers with spacious enclosed boot.</li>
       </ul>
       <p>
         Drivers have the right to refuse overload beyond legal and safe capacity limits.

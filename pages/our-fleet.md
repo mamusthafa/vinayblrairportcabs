@@ -1,10 +1,10 @@
 ---
 layout: landing-page
-title: "Our Taxi Fleet & Fares | Sedan, Innova Crysta, Hybrid, Tempo Traveller, Urbania | BLR Airport Cab"
-h1: "Our Premium Taxi Fleet & Rates in Bangalore"
-lead: "From fuel-efficient sedans at ₹1,299 to premium Innova Crystas (₹2,200), Innova Hybrids (₹2,400), Tempo Travellers (₹5,000), and luxury Force Urbanias (₹7,000), find the perfect vehicle with fixed 50 KM range pricing."
-description: "Explore BLR Airport Cab fleet & pricing: Sedan ₹1,299, Innova Crysta ₹2,200, Innova Hybrid ₹2,400, Tempo Traveller ₹5,000 & Force Urbania ₹7,000 for 50 KM Range. Book 24/7."
-keywords: "our taxi fleet bangalore, innova crysta airport taxi fare, innova hybrid taxi bangalore, tempo traveller bangalore airport, force urbania rental bangalore, sedan taxi 1299"
+title: "Our Taxi Fleet | Sedan, Innova Crysta, Hybrid, Tempo Traveller, Urbania | BLR Airport Cab"
+h1: "Our Premium Taxi Fleet in Bangalore"
+lead: "From fuel-efficient sedans for individual airport runs to spacious Innova Crystas, Innova Hybrids, Tempo Travellers, and luxurious Force Urbanias, find the perfect vehicle with transparent, pre-confirmed rates on enquiry."
+description: "Explore BLR Airport Cab fleet: Sedan (Dzire / Etios), Innova Crysta, Innova Hybrid, Tempo Traveller (12/16 Seater) & Force Urbania (Luxury Van). Clean sanitized vehicles with verified drivers."
+keywords: "our taxi fleet bangalore, innova crysta airport taxi, innova hybrid taxi bangalore, tempo traveller bangalore airport, force urbania rental bangalore, sedan taxi bangalore"
 category: "Commercial Fleet with Driver"
 url: "/our-fleet/"
 ---
@@ -41,7 +41,7 @@ url: "/our-fleet/"
         <div class="verified-gallery-item">
           <picture>
             <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-banner.webp" type="image/webp">
-            <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Sedan Multi-Angle Exterior Views at Kempegowda Airport" width="1024" height="535" loading="lazy">
+            <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Sedan Multi-Angle Exterior Views at Kempegowda Airport" width="1024" height="576" loading="lazy">
           </picture>
           <div class="verified-gallery-caption">
             <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px;">
@@ -74,7 +74,7 @@ url: "/our-fleet/"
 
     <!-- Detailed Fleet Comparison Table -->
     <div style="max-width: 960px; margin: 64px auto 0 auto;">
-      <h3 style="text-align: center; margin-bottom: 24px;">Quick Fleet Comparison &amp; Rate Guide (50 KM Range)</h3>
+      <h3 style="text-align: center; margin-bottom: 24px;">Quick Fleet Comparison &amp; Enquiry Guide</h3>
       <div class="table-responsive">
         <table class="table-custom">
           <thead>
@@ -83,7 +83,7 @@ url: "/our-fleet/"
               <th>Common Models</th>
               <th>Seating Capacity</th>
               <th>Luggage Capacity</th>
-              <th>Airport Fare (50 KM Range)</th>
+              <th>Fare Quotation</th>
               <th>Ideal Journey</th>
             </tr>
           </thead>
@@ -93,7 +93,11 @@ url: "/our-fleet/"
               <td>Maruti Dzire, Toyota Etios</td>
               <td>4 Passengers + Driver</td>
               <td>2 Medium Bags + Hand Luggage</td>
-              <td><span class="price-highlight">₹1,299</span> <br><small style="color: #059669; font-weight: 600;">50 KM Range</small></td>
+              <td>
+                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Sedan." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                  Request Quote &rarr;
+                </a>
+              </td>
               <td>Solo &amp; Couple Airport Transfers, City Meetings</td>
             </tr>
             <tr>
@@ -101,7 +105,11 @@ url: "/our-fleet/"
               <td>Toyota Innova Crysta</td>
               <td>6 – 7 Passengers + Driver</td>
               <td>4 Large Suitcases + Cabin Bags</td>
-              <td><span class="price-highlight">₹2,200</span> <br><small style="color: #059669; font-weight: 600;">50 KM Range</small></td>
+              <td>
+                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Crysta." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                  Request Quote &rarr;
+                </a>
+              </td>
               <td>Family Airport Runs, Highway Outstation Trips</td>
             </tr>
             <tr>
@@ -109,7 +117,11 @@ url: "/our-fleet/"
               <td>Toyota Innova Hycross / Hybrid</td>
               <td>6 – 7 Passengers + Driver</td>
               <td>4 Large Suitcases + Hand Luggage</td>
-              <td><span class="price-highlight">₹2,400</span> <br><small style="color: #059669; font-weight: 600;">50 KM Range</small></td>
+              <td>
+                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Innova%20Hybrid." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                  Request Quote &rarr;
+                </a>
+              </td>
               <td>VIP Executive Airport Transfers, Eco-Luxury Travel</td>
             </tr>
             <tr>
@@ -117,7 +129,11 @@ url: "/our-fleet/"
               <td>Force Tempo Traveller 12/16</td>
               <td>12 – 16 Pushback Luxury Seats</td>
               <td>Dedicated Luggage Carrier</td>
-              <td><span class="price-highlight">₹5,000</span> <br><small style="color: #059669; font-weight: 600;">50 KM Range</small></td>
+              <td>
+                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Tempo%20Traveller." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                  Request Quote &rarr;
+                </a>
+              </td>
               <td>Group Airport Transfers, Corporate Teams, Weddings</td>
             </tr>
             <tr>
@@ -125,7 +141,11 @@ url: "/our-fleet/"
               <td>Force Urbania Executive (9/13)</td>
               <td>9 – 13 Reclining Bucket Seats</td>
               <td>Spacious Enclosed Luggage Boot</td>
-              <td><span class="price-highlight">₹7,000</span> <br><small style="color: #059669; font-weight: 600;">50 KM Range</small></td>
+              <td>
+                <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20please%20quote%20fare%20for%20Force%20Urbania." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+                  Request Quote &rarr;
+                </a>
+              </td>
               <td>VIP Executive Delegations, Luxury Touring</td>
             </tr>
           </tbody>

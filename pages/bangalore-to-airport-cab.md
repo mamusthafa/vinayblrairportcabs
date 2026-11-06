@@ -74,9 +74,9 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a cab from Bangalore to Kemp
 <section class="section section-light">
   <div class="container">
     <div class="section-header">
-      <span class="badge-tag">Fixed Rates for 50 KM Range</span>
+      <span class="badge-tag">Select Your Vehicle</span>
       <h2>Choose the Right Cab for Your Airport Drop</h2>
-      <p>Clean, air-conditioned private cars with fixed pricing for 50 KM range: Sedan ₹1,299 • Innova Crysta ₹2,200 • Innova Hybrid ₹2,400 • Tempo Traveller ₹5,000 • Force Urbania ₹7,000.</p>
+      <p>Clean, air-conditioned private cars with ample luggage boot space and transparent pre-confirmed fares.</p>
     </div>
 
     <div class="fleet-grid">
@@ -89,17 +89,17 @@ wa_custom_text: "Hi BLR Airport Cab, I need to book a cab from Bangalore to Kemp
     <div class="verified-showcase-banner-wrap" style="margin-top: 48px;">
       <picture>
         <source srcset="{{ site.baseurl }}/assets/images/blr-sedan-banner.webp" type="image/webp">
-        <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Sedan Multi-Angle Views at Kempegowda Airport Bengaluru" width="1024" height="535" loading="lazy">
+        <img src="{{ site.baseurl }}/assets/images/blr-sedan-banner.jpg" alt="BLR Airport Cab Sedan Multi-Angle Views at Kempegowda Airport Bengaluru" width="1024" height="576" loading="lazy">
       </picture>
       <div style="padding: 18px 24px; background: #FFFFFF; border-top: 1px solid var(--color-border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;">
         <div>
-          <strong style="color: var(--color-text);">Inspected Commercial Sedans at ₹1,299 (50 KM Range)</strong>
+          <strong style="color: var(--color-text);">Inspected Commercial Vehicles for Punctual Drops</strong>
           <p style="margin: 4px 0 0 0; font-size: 0.9rem; color: var(--color-text-muted);">
             Scheduled doorstep pickups across Whitefield, Indiranagar, Koramangala, and all Bengaluru locations. Fixed fares with zero flight surge.
           </p>
         </div>
-        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20book%20a%20Sedan%20taxi%20at%20Rs%201299%20for%2050%20km%20range." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
-          Book Sedan ₹1,299 &rarr;
+        <a href="https://wa.me/919845798106?text=Hi%20BLR%20Airport%20Cab%2C%20I%20would%20like%20to%20enquire%20about%20booking%20a%20Sedan%20airport%20drop." class="btn btn-whatsapp btn-sm" target="_blank" rel="noopener noreferrer">
+          Enquire on WhatsApp &rarr;
         </a>
       </div>
     </div>
